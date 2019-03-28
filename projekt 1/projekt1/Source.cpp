@@ -241,7 +241,13 @@ void qs_mediana(int* tablica, int d, int g) {
 	int mediana[3] = { tablica[d],tablica[g / 2],tablica[g] };
 	//std::cout << mediana[1] << std::endl;
 	sortowanie_babelkowe_plus(mediana, 3);
-	
+	for (int q = 0; q < g; q++) {
+		if (tablica[q] == mediana[1]) {
+			swap(tablica[q], tablica[d]);
+			break;
+		}
+
+	}
 	if (d < g) {
 		
 		int t = d;
