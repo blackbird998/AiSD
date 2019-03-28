@@ -21,8 +21,8 @@ int losowa_liczba(int min, int max)
 void wypelnij(int* tablica, int rozmiar, int min = 0, int max = std::numeric_limits<int>::max())
 {
 	for (int i = 0; i < rozmiar; ++i) {
-		//tablica[i] = losowa_liczba(min, max);
-		tablica[i] = i;
+		tablica[i] = losowa_liczba(min, max);
+		//tablica[i] = i;
 	}
 		
 }
@@ -52,7 +52,7 @@ parametry:
 void eksperyment(void(*funkcja_sortujaca)(int*, int), const std::string& nazwa, std::ostream& output = std::cerr, int dodatkowe_miejsce = 0)
 {
 	//ustawienia
-	const double limit_czasu = 0.01/*30.0*/; //sekund
+	const double limit_czasu = 0.1/*30.0*/; //sekund
 	const int powtorzen = 5;
 	const int rozmiar_poczatkowy = 1 << 10;
 	/////////////////////////////////////////
@@ -195,6 +195,76 @@ void sortowanie_babelkowe_plus(int* tablica, int rozmiar)
 	} while (rozmiar > 1);
 }
 
+void sortowanie_shella(int* tablica, int rozmiar)
+{
+	int x, j;
+	int h = 1;
+	while (h < rozmiar / 9) {
+		h = 3 * h + 1;
+	}
+	while (h > 0) {
+		for (int i = h; i < rozmiar; i++) {
+			x = tablica[i];
+			j = i;
+			while (j >= h && x < tablica[j - h]) {
+				tablica[j] = tablica[j - h];
+					j = j - h;
+			}
+			tablica[j] = x;
+		}
+		h = h / 3;
+	}
+}
+
+void qs(int* tablica, int d, int g) {
+	if (d < g) {
+		int t = tablica[d];
+		int s = d;
+		for (int i = d + 1; i <= g; i++) {
+			if (tablica[i] < t) {
+				s++;
+				swap(tablica[s], tablica[i]);
+			}
+		}
+		swap(tablica[d], tablica[s]);
+		qs(tablica, d, s - 1);
+		qs(tablica, s + 1, g);
+	}
+}
+
+void sortowanie_szybkie(int* tablica, int rozmiar)
+{
+	qs(tablica, 0, rozmiar - 1);
+}
+
+void qs_mediana(int* tablica, int d, int g) {
+	int mediana[3] = { tablica[d],tablica[g / 2],tablica[g] };
+	//std::cout << mediana[1] << std::endl;
+	sortowanie_babelkowe_plus(mediana, 3);
+	
+	if (d < g) {
+		
+		int t = d;
+		
+		//std::cout << mediana[1] << std::endl;
+		int s = d;
+		for (int i = d + 1; i <= g; i++) {
+			if (tablica[i] < t) {
+				s++;
+				swap(tablica[s], tablica[i]);
+			}
+		}
+		swap(tablica[d], tablica[s]);
+		qs_mediana(tablica, d, s - 1);
+		qs_mediana(tablica, s + 1, g);
+	}
+}
+
+void sortowanie_szybkie_z_mediana(int* tablica, int rozmiar)
+{
+	qs_mediana(tablica, 0, rozmiar - 1);
+}
+
 
 int main()
 {
@@ -202,6 +272,9 @@ int main()
 	std::ofstream wyniki("wyniki.txt");
 
 	std::ostream& output = std::cerr; //zmienic na = wyniki aby zapisywalo do pliku
+	eksperyment(sortowanie_szybkie_z_mediana, "Sortowanie szybkie z mediana", output);
+	eksperyment(sortowanie_szybkie, "Sortowanie szybkie", output);
+	eksperyment(sortowanie_shella, "Sortowanie Shell'a", output);
 	eksperyment(sortowanie_babelkowe_plus, "Sortowanie b¹belkowe plus", output);
 	eksperyment(sortowanie_babelkowe, "Sortowanie b¹belkowe", output);
 	eksperyment(sortowanie_proste_wybieranie, "Sortowanie przez proste wybieranie", output);
