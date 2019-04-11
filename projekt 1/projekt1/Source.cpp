@@ -52,7 +52,7 @@ parametry:
 void eksperyment(void(*funkcja_sortujaca)(int*, int), const std::string& nazwa, std::ostream& output = std::cerr, int dodatkowe_miejsce = 0)
 {
 	//ustawienia
-	const double limit_czasu = 0.1/*30.0*/; //sekund
+	const double limit_czasu = 4.0/*30.0*/; //sekund
 	const int powtorzen = 5;
 	const int rozmiar_poczatkowy = 1 << 10;
 	/////////////////////////////////////////
@@ -271,6 +271,62 @@ void sortowanie_szybkie_z_mediana(int* tablica, int rozmiar)
 	qs_mediana(tablica, 0, rozmiar - 1);
 }
 
+void sort_biblio(int* tablica, int rozmiar) {
+	std::sort(tablica, tablica + rozmiar);
+}
+
+void kopiec_w_dol(int* tablica, int rozmiar, int i) {
+	int l = 2 * i;
+	int r = 2 * i + 1;
+	int largest;
+	if (l < rozmiar && tablica[l] > tablica[i]) largest = l;
+	else largest = i;
+	if (r < rozmiar && tablica[r] > tablica[largest]) largest = r;
+	if (largest != i) {
+		swap(tablica[i], tablica[largest]);
+		kopiec_w_dol(tablica, rozmiar, largest);
+	}
+}
+
+void kopiec_buduj(int* tablica, int n) {
+	for (int i = n / 2; i >= 0; i--) {
+		kopiec_w_dol(tablica, n, i);
+	}
+}
+
+void sortowanie_przez_kopcowanie(int* tablica, int n) {
+	kopiec_buduj(tablica, n);
+	for (int i = n - 1; i > 0; i--) {
+		swap(tablica[0], tablica[i]);
+		n--;
+		kopiec_w_dol(tablica, n, 0);
+	}
+}
+
+void qs_v2(int* tablica, int d, int g) {
+	
+	if(g-d>15){
+		if (d < g) {
+			int t = tablica[d];
+			int s = d;
+			for (int i = d + 1; i <= g; i++) {
+				if (tablica[i] < t) {
+					s++;
+					swap(tablica[s], tablica[i]);
+				}
+			}
+			swap(tablica[d], tablica[s]);
+			qs_v2(tablica, d, s - 1);
+			qs_v2(tablica, s + 1, g);
+		}
+	} 
+}
+
+//dla przedzia³ów <15 sortowanie przez wstawianie
+void sortowanie_szybkie_z_wstawianiem(int* tablica, int rozmiar) {
+	qs_v2(tablica, 0, rozmiar - 1);
+	sortowanie_proste_wstawianie(tablica, rozmiar);
+}
 
 int main()
 {
@@ -278,13 +334,17 @@ int main()
 	std::ofstream wyniki("wyniki.txt");
 
 	std::ostream& output = std::cerr; //zmienic na = wyniki aby zapisywalo do pliku
-	eksperyment(sortowanie_szybkie_z_mediana, "Sortowanie szybkie z mediana", output);
+	
+	eksperyment(sortowanie_przez_kopcowanie, "Sortowanie przez kopcowanie", output);
+	eksperyment(sort_biblio, "Sortowanie std::sort", output);
+	//eksperyment(sortowanie_szybkie_z_mediana, "Sortowanie szybkie z mediana", output);
+	eksperyment(sortowanie_szybkie_z_wstawianiem, "Sortowanie szybkie z wstawianiem", output);
 	eksperyment(sortowanie_szybkie, "Sortowanie szybkie", output);
 	eksperyment(sortowanie_shella, "Sortowanie Shell'a", output);
+	eksperyment(sortowanie_proste_wstawianie, "Sortowanie przez proste wstawianie", output);
+	eksperyment(sortowanie_proste_wybieranie, "Sortowanie przez proste wybieranie", output);
 	eksperyment(sortowanie_babelkowe_plus, "Sortowanie b¹belkowe plus", output);
 	eksperyment(sortowanie_babelkowe, "Sortowanie b¹belkowe", output);
-	eksperyment(sortowanie_proste_wybieranie, "Sortowanie przez proste wybieranie", output);
-	eksperyment(sortowanie_proste_wstawianie, "Sortowanie przez proste wstawianie", output);
 	
 	return 0;
 }
