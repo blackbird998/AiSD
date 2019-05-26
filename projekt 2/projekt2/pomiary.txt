@@ -1,0 +1,1926 @@
+=================================Adresowanie podwojne=================================
+                ###### Eksperyment 1 ######
+Wstawianie:     0% Uplynelo: 0.128512us                 10035 wywolan funkcji haszujacej.
+
+Szukanie:       10% Uplynelo: 0.131712us                10457 wywolan funkcji haszujacej.
+Wstawianie:     10% Uplynelo: 0.153504us                11038 wywolan funkcji haszujacej.
+
+Szukanie:       20% Uplynelo: 0.147872us                10964 wywolan funkcji haszujacej.
+Wstawianie:     20% Uplynelo: 0.165376us                12327 wywolan funkcji haszujacej.
+
+Szukanie:       30% Uplynelo: 0.15216us                 11652 wywolan funkcji haszujacej.
+Wstawianie:     30% Uplynelo: 0.189088us                13854 wywolan funkcji haszujacej.
+
+Szukanie:       40% Uplynelo: 0.176064us                12447 wywolan funkcji haszujacej.
+Wstawianie:     40% Uplynelo: 0.213312us                16096 wywolan funkcji haszujacej.
+
+Szukanie:       50% Uplynelo: 0.167328us                13428 wywolan funkcji haszujacej.
+Wstawianie:     50% Uplynelo: 0.230848us                19121 wywolan funkcji haszujacej.
+
+Szukanie:       60% Uplynelo: 0.185312us                14602 wywolan funkcji haszujacej.
+Wstawianie:     60% Uplynelo: 0.350784us                23521 wywolan funkcji haszujacej.
+
+Szukanie:       70% Uplynelo: 0.201088us                16556 wywolan funkcji haszujacej.
+Wstawianie:     70% Uplynelo: 0.421536us                31197 wywolan funkcji haszujacej.
+
+Szukanie:       80% Uplynelo: 0.222848us                18902 wywolan funkcji haszujacej.
+Wstawianie:     80% Uplynelo: 0.54832us                 47323 wywolan funkcji haszujacej.
+
+Szukanie:       90% Uplynelo: 0.261184us                23899 wywolan funkcji haszujacej.
+Wstawianie:     90% Uplynelo: 0.903072us                98883 wywolan funkcji haszujacej.
+
+                ###### Eksperyment 2 ######
+Wspolczynnik zapelnienia: 0.5
+Pomiar 1: 11935 wywolan funkci haszujacej dla wstawiania, 11935 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 32768               Wstawiono: 10000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 2: 18725 wywolan funkci haszujacej dla wstawiania, 15343 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 32768               Wstawiono: 20000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+                                ****Restrukturyzacja nr 1****
+Pomiar 3: 16057 wywolan funkci haszujacej dla wstawiania, 13241 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 65536               Wstawiono: 30000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 4: 21211 wywolan funkci haszujacej dla wstawiania, 15140 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 65536               Wstawiono: 40000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+                                ****Restrukturyzacja nr 2****
+Pomiar 5: 15231 wywolan funkci haszujacej dla wstawiania, 12502 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 50000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 6: 17301 wywolan funkci haszujacej dla wstawiania, 13245 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 60000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 7: 19711 wywolan funkci haszujacej dla wstawiania, 14207 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 70000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+                                ****Restrukturyzacja nr 3****
+Pomiar 8: 14043 wywolan funkci haszujacej dla wstawiania, 11904 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 80000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 9: 14738 wywolan funkci haszujacej dla wstawiania, 12121 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 90000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 10: 15624 wywolan funkci haszujacej dla wstawiania, 12489 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 100000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 11: 16637 wywolan funkci haszujacej dla wstawiania, 12939 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 110000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 12: 17683 wywolan funkci haszujacej dla wstawiania, 13286 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 120000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 13: 19041 wywolan funkci haszujacej dla wstawiania, 13664 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 130000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 14: 20492 wywolan funkci haszujacej dla wstawiania, 14218 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 140000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+                                ****Restrukturyzacja nr 4****
+Pomiar 15: 13765 wywolan funkci haszujacej dla wstawiania, 11695 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 150000 elementow. Wspolczynnik zapelnienia: 0.286102.
+
+Pomiar 16: 14054 wywolan funkci haszujacej dla wstawiania, 11765 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 160000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 17: 14439 wywolan funkci haszujacej dla wstawiania, 11965 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 170000 elementow. Wspolczynnik zapelnienia: 0.324249.
+
+Pomiar 18: 14684 wywolan funkci haszujacej dla wstawiania, 12274 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 180000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 19: 15202 wywolan funkci haszujacej dla wstawiania, 12301 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 190000 elementow. Wspolczynnik zapelnienia: 0.362396.
+
+Pomiar 20: 15631 wywolan funkci haszujacej dla wstawiania, 12391 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 200000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 21: 16267 wywolan funkci haszujacej dla wstawiania, 12658 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 210000 elementow. Wspolczynnik zapelnienia: 0.400543.
+
+Pomiar 22: 16929 wywolan funkci haszujacej dla wstawiania, 12950 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 220000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 23: 17314 wywolan funkci haszujacej dla wstawiania, 13055 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 230000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 24: 17679 wywolan funkci haszujacej dla wstawiania, 13284 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 240000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 25: 18613 wywolan funkci haszujacej dla wstawiania, 13377 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 250000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Pomiar 26: 19445 wywolan funkci haszujacej dla wstawiania, 13804 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 260000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 27: 20092 wywolan funkci haszujacej dla wstawiania, 13953 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 270000 elementow. Wspolczynnik zapelnienia: 0.514984.
+
+                                ****Restrukturyzacja nr 5****
+Pomiar 28: 13392 wywolan funkci haszujacej dla wstawiania, 11484 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 280000 elementow. Wspolczynnik zapelnienia: 0.267029.
+
+Pomiar 29: 13636 wywolan funkci haszujacej dla wstawiania, 11652 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 290000 elementow. Wspolczynnik zapelnienia: 0.276566.
+
+Pomiar 30: 13654 wywolan funkci haszujacej dla wstawiania, 11662 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 300000 elementow. Wspolczynnik zapelnienia: 0.286102.
+
+Pomiar 31: 13859 wywolan funkci haszujacej dla wstawiania, 11638 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 310000 elementow. Wspolczynnik zapelnienia: 0.295639.
+
+Pomiar 32: 14014 wywolan funkci haszujacej dla wstawiania, 11823 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 320000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 33: 14194 wywolan funkci haszujacej dla wstawiania, 11852 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 330000 elementow. Wspolczynnik zapelnienia: 0.314713.
+
+Pomiar 34: 14542 wywolan funkci haszujacej dla wstawiania, 11956 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 340000 elementow. Wspolczynnik zapelnienia: 0.324249.
+
+Pomiar 35: 14691 wywolan funkci haszujacej dla wstawiania, 12064 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 350000 elementow. Wspolczynnik zapelnienia: 0.333786.
+
+Pomiar 36: 14946 wywolan funkci haszujacej dla wstawiania, 12037 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 360000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 37: 14991 wywolan funkci haszujacej dla wstawiania, 12141 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 370000 elementow. Wspolczynnik zapelnienia: 0.352859.
+
+Pomiar 38: 15575 wywolan funkci haszujacej dla wstawiania, 12266 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 380000 elementow. Wspolczynnik zapelnienia: 0.362396.
+
+Pomiar 39: 15615 wywolan funkci haszujacej dla wstawiania, 12410 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 390000 elementow. Wspolczynnik zapelnienia: 0.371933.
+
+Pomiar 40: 15763 wywolan funkci haszujacej dla wstawiania, 12428 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 400000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 41: 16105 wywolan funkci haszujacej dla wstawiania, 12517 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 410000 elementow. Wspolczynnik zapelnienia: 0.391006.
+
+Pomiar 42: 16325 wywolan funkci haszujacej dla wstawiania, 12675 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 420000 elementow. Wspolczynnik zapelnienia: 0.400543.
+
+Pomiar 43: 16478 wywolan funkci haszujacej dla wstawiania, 12671 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 430000 elementow. Wspolczynnik zapelnienia: 0.41008.
+
+Pomiar 44: 16894 wywolan funkci haszujacej dla wstawiania, 12840 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 440000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 45: 16989 wywolan funkci haszujacej dla wstawiania, 12932 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 450000 elementow. Wspolczynnik zapelnienia: 0.429153.
+
+Pomiar 46: 17323 wywolan funkci haszujacej dla wstawiania, 13029 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 460000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 47: 17513 wywolan funkci haszujacej dla wstawiania, 13127 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 470000 elementow. Wspolczynnik zapelnienia: 0.448227.
+
+Pomiar 48: 18045 wywolan funkci haszujacej dla wstawiania, 13096 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 480000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 49: 18415 wywolan funkci haszujacej dla wstawiania, 13277 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 490000 elementow. Wspolczynnik zapelnienia: 0.4673.
+
+Pomiar 50: 18762 wywolan funkci haszujacej dla wstawiania, 13438 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 500000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Pomiar 51: 19114 wywolan funkci haszujacej dla wstawiania, 13574 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 510000 elementow. Wspolczynnik zapelnienia: 0.486374.
+
+Pomiar 52: 19393 wywolan funkci haszujacej dla wstawiania, 13660 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 520000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 53: 19706 wywolan funkci haszujacej dla wstawiania, 13932 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 530000 elementow. Wspolczynnik zapelnienia: 0.505447.
+
+                                ****Restrukturyzacja nr 6****
+Pomiar 54: 13065 wywolan funkci haszujacej dla wstawiania, 11329 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 540000 elementow. Wspolczynnik zapelnienia: 0.257492.
+
+Pomiar 55: 13027 wywolan funkci haszujacej dla wstawiania, 11362 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 550000 elementow. Wspolczynnik zapelnienia: 0.26226.
+
+Pomiar 56: 13108 wywolan funkci haszujacej dla wstawiania, 11378 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 560000 elementow. Wspolczynnik zapelnienia: 0.267029.
+
+Pomiar 57: 13238 wywolan funkci haszujacej dla wstawiania, 11421 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 570000 elementow. Wspolczynnik zapelnienia: 0.271797.
+
+Pomiar 58: 13214 wywolan funkci haszujacej dla wstawiania, 11502 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 580000 elementow. Wspolczynnik zapelnienia: 0.276566.
+
+Pomiar 59: 13345 wywolan funkci haszujacej dla wstawiania, 11523 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 590000 elementow. Wspolczynnik zapelnienia: 0.281334.
+
+Pomiar 60: 13488 wywolan funkci haszujacej dla wstawiania, 11544 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 600000 elementow. Wspolczynnik zapelnienia: 0.286102.
+
+Pomiar 61: 13688 wywolan funkci haszujacej dla wstawiania, 11594 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 610000 elementow. Wspolczynnik zapelnienia: 0.290871.
+
+Pomiar 62: 13800 wywolan funkci haszujacej dla wstawiania, 11646 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 620000 elementow. Wspolczynnik zapelnienia: 0.295639.
+
+Pomiar 63: 13803 wywolan funkci haszujacej dla wstawiania, 11677 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 630000 elementow. Wspolczynnik zapelnienia: 0.300407.
+
+Pomiar 64: 13855 wywolan funkci haszujacej dla wstawiania, 11673 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 640000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 65: 13813 wywolan funkci haszujacej dla wstawiania, 11662 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 650000 elementow. Wspolczynnik zapelnienia: 0.309944.
+
+Pomiar 66: 14126 wywolan funkci haszujacej dla wstawiania, 11703 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 660000 elementow. Wspolczynnik zapelnienia: 0.314713.
+
+Pomiar 67: 14152 wywolan funkci haszujacej dla wstawiania, 11719 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 670000 elementow. Wspolczynnik zapelnienia: 0.319481.
+
+Pomiar 68: 14216 wywolan funkci haszujacej dla wstawiania, 11860 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 680000 elementow. Wspolczynnik zapelnienia: 0.324249.
+
+Pomiar 69: 14309 wywolan funkci haszujacej dla wstawiania, 11928 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 690000 elementow. Wspolczynnik zapelnienia: 0.329018.
+
+Pomiar 70: 14423 wywolan funkci haszujacej dla wstawiania, 11865 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 700000 elementow. Wspolczynnik zapelnienia: 0.333786.
+
+Pomiar 71: 14651 wywolan funkci haszujacej dla wstawiania, 11900 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 710000 elementow. Wspolczynnik zapelnienia: 0.338554.
+
+Pomiar 72: 14539 wywolan funkci haszujacej dla wstawiania, 12009 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 720000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 73: 14716 wywolan funkci haszujacej dla wstawiania, 12054 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 730000 elementow. Wspolczynnik zapelnienia: 0.348091.
+
+Pomiar 74: 15004 wywolan funkci haszujacej dla wstawiania, 12057 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 740000 elementow. Wspolczynnik zapelnienia: 0.352859.
+
+Pomiar 75: 15137 wywolan funkci haszujacej dla wstawiania, 12044 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 750000 elementow. Wspolczynnik zapelnienia: 0.357628.
+
+Pomiar 76: 15161 wywolan funkci haszujacej dla wstawiania, 12092 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 760000 elementow. Wspolczynnik zapelnienia: 0.362396.
+
+Pomiar 77: 15140 wywolan funkci haszujacej dla wstawiania, 12166 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 770000 elementow. Wspolczynnik zapelnienia: 0.367165.
+
+Pomiar 78: 15339 wywolan funkci haszujacej dla wstawiania, 12346 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 780000 elementow. Wspolczynnik zapelnienia: 0.371933.
+
+Pomiar 79: 15318 wywolan funkci haszujacej dla wstawiania, 12214 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 790000 elementow. Wspolczynnik zapelnienia: 0.376701.
+
+Pomiar 80: 15573 wywolan funkci haszujacej dla wstawiania, 12289 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 800000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 81: 15751 wywolan funkci haszujacej dla wstawiania, 12317 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 810000 elementow. Wspolczynnik zapelnienia: 0.386238.
+
+Pomiar 82: 15940 wywolan funkci haszujacej dla wstawiania, 12329 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 820000 elementow. Wspolczynnik zapelnienia: 0.391006.
+
+Pomiar 83: 16048 wywolan funkci haszujacej dla wstawiania, 12376 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 830000 elementow. Wspolczynnik zapelnienia: 0.395775.
+
+Pomiar 84: 16198 wywolan funkci haszujacej dla wstawiania, 12478 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 840000 elementow. Wspolczynnik zapelnienia: 0.400543.
+
+Pomiar 85: 16216 wywolan funkci haszujacej dla wstawiania, 12598 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 850000 elementow. Wspolczynnik zapelnienia: 0.405312.
+
+Pomiar 86: 16061 wywolan funkci haszujacej dla wstawiania, 12649 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 860000 elementow. Wspolczynnik zapelnienia: 0.41008.
+
+Pomiar 87: 16625 wywolan funkci haszujacej dla wstawiania, 12640 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 870000 elementow. Wspolczynnik zapelnienia: 0.414848.
+
+Pomiar 88: 16705 wywolan funkci haszujacej dla wstawiania, 12741 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 880000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 89: 16691 wywolan funkci haszujacej dla wstawiania, 12732 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 890000 elementow. Wspolczynnik zapelnienia: 0.424385.
+
+Pomiar 90: 17032 wywolan funkci haszujacej dla wstawiania, 12768 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 900000 elementow. Wspolczynnik zapelnienia: 0.429153.
+
+Pomiar 91: 16979 wywolan funkci haszujacej dla wstawiania, 12835 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 910000 elementow. Wspolczynnik zapelnienia: 0.433922.
+
+Pomiar 92: 17287 wywolan funkci haszujacej dla wstawiania, 12847 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 920000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 93: 17394 wywolan funkci haszujacej dla wstawiania, 12747 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 930000 elementow. Wspolczynnik zapelnienia: 0.443459.
+
+Pomiar 94: 17305 wywolan funkci haszujacej dla wstawiania, 12985 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 940000 elementow. Wspolczynnik zapelnienia: 0.448227.
+
+Pomiar 95: 17570 wywolan funkci haszujacej dla wstawiania, 12970 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 950000 elementow. Wspolczynnik zapelnienia: 0.452995.
+
+Pomiar 96: 17979 wywolan funkci haszujacej dla wstawiania, 13071 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 960000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 97: 17797 wywolan funkci haszujacej dla wstawiania, 13116 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 970000 elementow. Wspolczynnik zapelnienia: 0.462532.
+
+Pomiar 98: 18336 wywolan funkci haszujacej dla wstawiania, 13125 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 980000 elementow. Wspolczynnik zapelnienia: 0.4673.
+
+Pomiar 99: 18212 wywolan funkci haszujacej dla wstawiania, 13166 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 990000 elementow. Wspolczynnik zapelnienia: 0.472069.
+
+Pomiar 100: 18524 wywolan funkci haszujacej dla wstawiania, 13097 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 1000000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Laczna liczba wywolan funkcji haszujacej dla wstawiania: 1596375
+Laczna liczba wywolan funkcji haszujacej dla szukania: 1252031
+Lacznie restrukturyzacji: 6
+Wspolczynnik zapelnienia: 0.6
+Pomiar 1: 11935 wywolan funkci haszujacej dla wstawiania, 11935 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 32768               Wstawiono: 10000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 2: 18725 wywolan funkci haszujacej dla wstawiania, 15343 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 32768               Wstawiono: 20000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+                                ****Restrukturyzacja nr 1****
+Pomiar 3: 16057 wywolan funkci haszujacej dla wstawiania, 13241 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 65536               Wstawiono: 30000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 4: 21211 wywolan funkci haszujacej dla wstawiania, 15140 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 65536               Wstawiono: 40000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+                                ****Restrukturyzacja nr 2****
+Pomiar 5: 15231 wywolan funkci haszujacej dla wstawiania, 12502 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 50000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 6: 17301 wywolan funkci haszujacej dla wstawiania, 13245 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 60000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 7: 19711 wywolan funkci haszujacej dla wstawiania, 14207 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 70000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 8: 23459 wywolan funkci haszujacej dla wstawiania, 15438 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 80000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+                                ****Restrukturyzacja nr 3****
+Pomiar 9: 14733 wywolan funkci haszujacej dla wstawiania, 12160 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 90000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 10: 15626 wywolan funkci haszujacej dla wstawiania, 12477 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 100000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 11: 16629 wywolan funkci haszujacej dla wstawiania, 12921 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 110000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 12: 17716 wywolan funkci haszujacej dla wstawiania, 13282 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 120000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 13: 19037 wywolan funkci haszujacej dla wstawiania, 13671 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 130000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 14: 20479 wywolan funkci haszujacej dla wstawiania, 14217 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 140000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 15: 22490 wywolan funkci haszujacej dla wstawiania, 14764 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 150000 elementow. Wspolczynnik zapelnienia: 0.572205.
+
+Pomiar 16: 24783 wywolan funkci haszujacej dla wstawiania, 15430 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 160000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+                                ****Restrukturyzacja nr 4****
+Pomiar 17: 14445 wywolan funkci haszujacej dla wstawiania, 11974 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 170000 elementow. Wspolczynnik zapelnienia: 0.324249.
+
+Pomiar 18: 14702 wywolan funkci haszujacej dla wstawiania, 12277 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 180000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 19: 15207 wywolan funkci haszujacej dla wstawiania, 12308 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 190000 elementow. Wspolczynnik zapelnienia: 0.362396.
+
+Pomiar 20: 15606 wywolan funkci haszujacej dla wstawiania, 12407 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 200000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 21: 16276 wywolan funkci haszujacej dla wstawiania, 12660 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 210000 elementow. Wspolczynnik zapelnienia: 0.400543.
+
+Pomiar 22: 16910 wywolan funkci haszujacej dla wstawiania, 12925 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 220000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 23: 17304 wywolan funkci haszujacej dla wstawiania, 13057 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 230000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 24: 17640 wywolan funkci haszujacej dla wstawiania, 13300 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 240000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 25: 18616 wywolan funkci haszujacej dla wstawiania, 13416 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 250000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Pomiar 26: 19442 wywolan funkci haszujacej dla wstawiania, 13822 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 260000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 27: 20091 wywolan funkci haszujacej dla wstawiania, 13955 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 270000 elementow. Wspolczynnik zapelnienia: 0.514984.
+
+Pomiar 28: 21057 wywolan funkci haszujacej dla wstawiania, 14170 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 280000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 29: 21590 wywolan funkci haszujacej dla wstawiania, 14618 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 290000 elementow. Wspolczynnik zapelnienia: 0.553131.
+
+Pomiar 30: 22469 wywolan funkci haszujacej dla wstawiania, 14737 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 300000 elementow. Wspolczynnik zapelnienia: 0.572205.
+
+Pomiar 31: 23989 wywolan funkci haszujacej dla wstawiania, 14810 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 310000 elementow. Wspolczynnik zapelnienia: 0.591278.
+
+Pomiar 32: 24814 wywolan funkci haszujacej dla wstawiania, 15443 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 320000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+                                ****Restrukturyzacja nr 5****
+Pomiar 33: 14206 wywolan funkci haszujacej dla wstawiania, 11829 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 330000 elementow. Wspolczynnik zapelnienia: 0.314713.
+
+Pomiar 34: 14538 wywolan funkci haszujacej dla wstawiania, 11925 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 340000 elementow. Wspolczynnik zapelnienia: 0.324249.
+
+Pomiar 35: 14688 wywolan funkci haszujacej dla wstawiania, 12048 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 350000 elementow. Wspolczynnik zapelnienia: 0.333786.
+
+Pomiar 36: 14949 wywolan funkci haszujacej dla wstawiania, 11993 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 360000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 37: 14983 wywolan funkci haszujacej dla wstawiania, 12142 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 370000 elementow. Wspolczynnik zapelnienia: 0.352859.
+
+Pomiar 38: 15554 wywolan funkci haszujacej dla wstawiania, 12313 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 380000 elementow. Wspolczynnik zapelnienia: 0.362396.
+
+Pomiar 39: 15599 wywolan funkci haszujacej dla wstawiania, 12428 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 390000 elementow. Wspolczynnik zapelnienia: 0.371933.
+
+Pomiar 40: 15774 wywolan funkci haszujacej dla wstawiania, 12405 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 400000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 41: 16110 wywolan funkci haszujacej dla wstawiania, 12490 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 410000 elementow. Wspolczynnik zapelnienia: 0.391006.
+
+Pomiar 42: 16345 wywolan funkci haszujacej dla wstawiania, 12675 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 420000 elementow. Wspolczynnik zapelnienia: 0.400543.
+
+Pomiar 43: 16491 wywolan funkci haszujacej dla wstawiania, 12654 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 430000 elementow. Wspolczynnik zapelnienia: 0.41008.
+
+Pomiar 44: 16874 wywolan funkci haszujacej dla wstawiania, 12801 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 440000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 45: 16994 wywolan funkci haszujacej dla wstawiania, 12940 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 450000 elementow. Wspolczynnik zapelnienia: 0.429153.
+
+Pomiar 46: 17304 wywolan funkci haszujacej dla wstawiania, 13019 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 460000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 47: 17585 wywolan funkci haszujacej dla wstawiania, 13094 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 470000 elementow. Wspolczynnik zapelnienia: 0.448227.
+
+Pomiar 48: 18039 wywolan funkci haszujacej dla wstawiania, 13098 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 480000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 49: 18392 wywolan funkci haszujacej dla wstawiania, 13326 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 490000 elementow. Wspolczynnik zapelnienia: 0.4673.
+
+Pomiar 50: 18745 wywolan funkci haszujacej dla wstawiania, 13432 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 500000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Pomiar 51: 19104 wywolan funkci haszujacej dla wstawiania, 13583 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 510000 elementow. Wspolczynnik zapelnienia: 0.486374.
+
+Pomiar 52: 19380 wywolan funkci haszujacej dla wstawiania, 13658 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 520000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 53: 19729 wywolan funkci haszujacej dla wstawiania, 13912 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 530000 elementow. Wspolczynnik zapelnienia: 0.505447.
+
+Pomiar 54: 20349 wywolan funkci haszujacej dla wstawiania, 13812 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 540000 elementow. Wspolczynnik zapelnienia: 0.514984.
+
+Pomiar 55: 20288 wywolan funkci haszujacej dla wstawiania, 14092 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 550000 elementow. Wspolczynnik zapelnienia: 0.524521.
+
+Pomiar 56: 21152 wywolan funkci haszujacej dla wstawiania, 14093 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 560000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 57: 21355 wywolan funkci haszujacej dla wstawiania, 14109 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 570000 elementow. Wspolczynnik zapelnienia: 0.543594.
+
+Pomiar 58: 22063 wywolan funkci haszujacej dla wstawiania, 14474 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 580000 elementow. Wspolczynnik zapelnienia: 0.553131.
+
+Pomiar 59: 22490 wywolan funkci haszujacej dla wstawiania, 14565 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 590000 elementow. Wspolczynnik zapelnienia: 0.562668.
+
+Pomiar 60: 22840 wywolan funkci haszujacej dla wstawiania, 14546 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 600000 elementow. Wspolczynnik zapelnienia: 0.572205.
+
+Pomiar 61: 23556 wywolan funkci haszujacej dla wstawiania, 14851 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 610000 elementow. Wspolczynnik zapelnienia: 0.581741.
+
+Pomiar 62: 24747 wywolan funkci haszujacej dla wstawiania, 14956 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 620000 elementow. Wspolczynnik zapelnienia: 0.591278.
+
+Pomiar 63: 24781 wywolan funkci haszujacej dla wstawiania, 14992 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 630000 elementow. Wspolczynnik zapelnienia: 0.600815.
+
+                                ****Restrukturyzacja nr 6****
+Pomiar 64: 13886 wywolan funkci haszujacej dla wstawiania, 11640 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 640000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 65: 13825 wywolan funkci haszujacej dla wstawiania, 11647 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 650000 elementow. Wspolczynnik zapelnienia: 0.309944.
+
+Pomiar 66: 14121 wywolan funkci haszujacej dla wstawiania, 11674 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 660000 elementow. Wspolczynnik zapelnienia: 0.314713.
+
+Pomiar 67: 14140 wywolan funkci haszujacej dla wstawiania, 11711 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 670000 elementow. Wspolczynnik zapelnienia: 0.319481.
+
+Pomiar 68: 14226 wywolan funkci haszujacej dla wstawiania, 11825 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 680000 elementow. Wspolczynnik zapelnienia: 0.324249.
+
+Pomiar 69: 14332 wywolan funkci haszujacej dla wstawiania, 11904 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 690000 elementow. Wspolczynnik zapelnienia: 0.329018.
+
+Pomiar 70: 14418 wywolan funkci haszujacej dla wstawiania, 11876 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 700000 elementow. Wspolczynnik zapelnienia: 0.333786.
+
+Pomiar 71: 14655 wywolan funkci haszujacej dla wstawiania, 11888 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 710000 elementow. Wspolczynnik zapelnienia: 0.338554.
+
+Pomiar 72: 14571 wywolan funkci haszujacej dla wstawiania, 11993 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 720000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 73: 14722 wywolan funkci haszujacej dla wstawiania, 12080 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 730000 elementow. Wspolczynnik zapelnienia: 0.348091.
+
+Pomiar 74: 14997 wywolan funkci haszujacej dla wstawiania, 12040 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 740000 elementow. Wspolczynnik zapelnienia: 0.352859.
+
+Pomiar 75: 15108 wywolan funkci haszujacej dla wstawiania, 12012 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 750000 elementow. Wspolczynnik zapelnienia: 0.357628.
+
+Pomiar 76: 15170 wywolan funkci haszujacej dla wstawiania, 12073 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 760000 elementow. Wspolczynnik zapelnienia: 0.362396.
+
+Pomiar 77: 15127 wywolan funkci haszujacej dla wstawiania, 12159 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 770000 elementow. Wspolczynnik zapelnienia: 0.367165.
+
+Pomiar 78: 15301 wywolan funkci haszujacej dla wstawiania, 12346 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 780000 elementow. Wspolczynnik zapelnienia: 0.371933.
+
+Pomiar 79: 15325 wywolan funkci haszujacej dla wstawiania, 12234 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 790000 elementow. Wspolczynnik zapelnienia: 0.376701.
+
+Pomiar 80: 15566 wywolan funkci haszujacej dla wstawiania, 12288 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 800000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 81: 15739 wywolan funkci haszujacej dla wstawiania, 12300 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 810000 elementow. Wspolczynnik zapelnienia: 0.386238.
+
+Pomiar 82: 15932 wywolan funkci haszujacej dla wstawiania, 12291 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 820000 elementow. Wspolczynnik zapelnienia: 0.391006.
+
+Pomiar 83: 15999 wywolan funkci haszujacej dla wstawiania, 12388 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 830000 elementow. Wspolczynnik zapelnienia: 0.395775.
+
+Pomiar 84: 16206 wywolan funkci haszujacej dla wstawiania, 12478 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 840000 elementow. Wspolczynnik zapelnienia: 0.400543.
+
+Pomiar 85: 16214 wywolan funkci haszujacej dla wstawiania, 12570 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 850000 elementow. Wspolczynnik zapelnienia: 0.405312.
+
+Pomiar 86: 16070 wywolan funkci haszujacej dla wstawiania, 12670 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 860000 elementow. Wspolczynnik zapelnienia: 0.41008.
+
+Pomiar 87: 16640 wywolan funkci haszujacej dla wstawiania, 12617 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 870000 elementow. Wspolczynnik zapelnienia: 0.414848.
+
+Pomiar 88: 16725 wywolan funkci haszujacej dla wstawiania, 12700 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 880000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 89: 16680 wywolan funkci haszujacej dla wstawiania, 12687 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 890000 elementow. Wspolczynnik zapelnienia: 0.424385.
+
+Pomiar 90: 17026 wywolan funkci haszujacej dla wstawiania, 12770 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 900000 elementow. Wspolczynnik zapelnienia: 0.429153.
+
+Pomiar 91: 16983 wywolan funkci haszujacej dla wstawiania, 12808 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 910000 elementow. Wspolczynnik zapelnienia: 0.433922.
+
+Pomiar 92: 17298 wywolan funkci haszujacej dla wstawiania, 12845 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 920000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 93: 17398 wywolan funkci haszujacej dla wstawiania, 12736 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 930000 elementow. Wspolczynnik zapelnienia: 0.443459.
+
+Pomiar 94: 17286 wywolan funkci haszujacej dla wstawiania, 12964 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 940000 elementow. Wspolczynnik zapelnienia: 0.448227.
+
+Pomiar 95: 17615 wywolan funkci haszujacej dla wstawiania, 12957 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 950000 elementow. Wspolczynnik zapelnienia: 0.452995.
+
+Pomiar 96: 17974 wywolan funkci haszujacej dla wstawiania, 13062 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 960000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 97: 17791 wywolan funkci haszujacej dla wstawiania, 13097 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 970000 elementow. Wspolczynnik zapelnienia: 0.462532.
+
+Pomiar 98: 18366 wywolan funkci haszujacej dla wstawiania, 13118 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 980000 elementow. Wspolczynnik zapelnienia: 0.4673.
+
+Pomiar 99: 18149 wywolan funkci haszujacej dla wstawiania, 13184 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 990000 elementow. Wspolczynnik zapelnienia: 0.472069.
+
+Pomiar 100: 18507 wywolan funkci haszujacej dla wstawiania, 13094 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 1000000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Laczna liczba wywolan funkcji haszujacej dla wstawiania: 1760373
+Laczna liczba wywolan funkcji haszujacej dla szukania: 1306833
+Lacznie restrukturyzacji: 6
+Wspolczynnik zapelnienia: 0.8
+Pomiar 1: 11935 wywolan funkci haszujacej dla wstawiania, 11935 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 32768               Wstawiono: 10000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 2: 18725 wywolan funkci haszujacej dla wstawiania, 15343 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 32768               Wstawiono: 20000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+Pomiar 3: 49917 wywolan funkci haszujacej dla wstawiania, 26755 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 32768               Wstawiono: 30000 elementow. Wspolczynnik zapelnienia: 0.915527.
+
+                                ****Restrukturyzacja nr 1****
+Pomiar 4: 21211 wywolan funkci haszujacej dla wstawiania, 15187 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 65536               Wstawiono: 40000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+Pomiar 5: 32827 wywolan funkci haszujacej dla wstawiania, 18789 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 65536               Wstawiono: 50000 elementow. Wspolczynnik zapelnienia: 0.762939.
+
+Pomiar 6: 67900 wywolan funkci haszujacej dla wstawiania, 27303 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 65536               Wstawiono: 60000 elementow. Wspolczynnik zapelnienia: 0.915527.
+
+                                ****Restrukturyzacja nr 2****
+Pomiar 7: 19746 wywolan funkci haszujacej dla wstawiania, 14211 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 70000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 8: 23529 wywolan funkci haszujacej dla wstawiania, 15435 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 80000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+Pomiar 9: 29144 wywolan funkci haszujacej dla wstawiania, 16691 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 90000 elementow. Wspolczynnik zapelnienia: 0.686646.
+
+Pomiar 10: 36661 wywolan funkci haszujacej dla wstawiania, 18910 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 100000 elementow. Wspolczynnik zapelnienia: 0.762939.
+
+Pomiar 11: 51360 wywolan funkci haszujacej dla wstawiania, 21840 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 110000 elementow. Wspolczynnik zapelnienia: 0.839233.
+
+                                ****Restrukturyzacja nr 3****
+Pomiar 12: 17703 wywolan funkci haszujacej dla wstawiania, 13246 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 120000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 13: 19072 wywolan funkci haszujacej dla wstawiania, 13720 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 130000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 14: 20500 wywolan funkci haszujacej dla wstawiania, 14227 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 140000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 15: 22390 wywolan funkci haszujacej dla wstawiania, 14739 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 150000 elementow. Wspolczynnik zapelnienia: 0.572205.
+
+Pomiar 16: 24734 wywolan funkci haszujacej dla wstawiania, 15395 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 160000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+Pomiar 17: 26336 wywolan funkci haszujacej dla wstawiania, 16059 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 170000 elementow. Wspolczynnik zapelnienia: 0.648499.
+
+Pomiar 18: 29850 wywolan funkci haszujacej dla wstawiania, 16890 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 180000 elementow. Wspolczynnik zapelnienia: 0.686646.
+
+Pomiar 19: 34485 wywolan funkci haszujacej dla wstawiania, 17531 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 190000 elementow. Wspolczynnik zapelnienia: 0.724792.
+
+Pomiar 20: 39568 wywolan funkci haszujacej dla wstawiania, 18623 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 200000 elementow. Wspolczynnik zapelnienia: 0.762939.
+
+Pomiar 21: 46169 wywolan funkci haszujacej dla wstawiania, 19990 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 210000 elementow. Wspolczynnik zapelnienia: 0.801086.
+
+                                ****Restrukturyzacja nr 4****
+Pomiar 22: 16868 wywolan funkci haszujacej dla wstawiania, 12910 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 220000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 23: 17315 wywolan funkci haszujacej dla wstawiania, 13082 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 230000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 24: 17649 wywolan funkci haszujacej dla wstawiania, 13298 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 240000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 25: 18671 wywolan funkci haszujacej dla wstawiania, 13417 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 250000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Pomiar 26: 19479 wywolan funkci haszujacej dla wstawiania, 13760 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 260000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 27: 20131 wywolan funkci haszujacej dla wstawiania, 13968 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 270000 elementow. Wspolczynnik zapelnienia: 0.514984.
+
+Pomiar 28: 21035 wywolan funkci haszujacej dla wstawiania, 14157 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 280000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 29: 21602 wywolan funkci haszujacej dla wstawiania, 14581 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 290000 elementow. Wspolczynnik zapelnienia: 0.553131.
+
+Pomiar 30: 22552 wywolan funkci haszujacej dla wstawiania, 14779 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 300000 elementow. Wspolczynnik zapelnienia: 0.572205.
+
+Pomiar 31: 24010 wywolan funkci haszujacej dla wstawiania, 14905 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 310000 elementow. Wspolczynnik zapelnienia: 0.591278.
+
+Pomiar 32: 24936 wywolan funkci haszujacej dla wstawiania, 15439 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 320000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+Pomiar 33: 26199 wywolan funkci haszujacej dla wstawiania, 15604 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 330000 elementow. Wspolczynnik zapelnienia: 0.629425.
+
+Pomiar 34: 27676 wywolan funkci haszujacej dla wstawiania, 15796 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 340000 elementow. Wspolczynnik zapelnienia: 0.648499.
+
+Pomiar 35: 29197 wywolan funkci haszujacej dla wstawiania, 16487 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 350000 elementow. Wspolczynnik zapelnienia: 0.667572.
+
+Pomiar 36: 31518 wywolan funkci haszujacej dla wstawiania, 16667 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 360000 elementow. Wspolczynnik zapelnienia: 0.686646.
+
+Pomiar 37: 33253 wywolan funkci haszujacej dla wstawiania, 17271 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 370000 elementow. Wspolczynnik zapelnienia: 0.705719.
+
+Pomiar 38: 35400 wywolan funkci haszujacej dla wstawiania, 17747 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 380000 elementow. Wspolczynnik zapelnienia: 0.724792.
+
+Pomiar 39: 38227 wywolan funkci haszujacej dla wstawiania, 17999 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 390000 elementow. Wspolczynnik zapelnienia: 0.743866.
+
+Pomiar 40: 41470 wywolan funkci haszujacej dla wstawiania, 18652 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 400000 elementow. Wspolczynnik zapelnienia: 0.762939.
+
+Pomiar 41: 44716 wywolan funkci haszujacej dla wstawiania, 19521 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 410000 elementow. Wspolczynnik zapelnienia: 0.782013.
+
+Pomiar 42: 48963 wywolan funkci haszujacej dla wstawiania, 19882 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 420000 elementow. Wspolczynnik zapelnienia: 0.801086.
+
+                                ****Restrukturyzacja nr 5****
+Pomiar 43: 16457 wywolan funkci haszujacej dla wstawiania, 12679 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 430000 elementow. Wspolczynnik zapelnienia: 0.41008.
+
+Pomiar 44: 16889 wywolan funkci haszujacej dla wstawiania, 12819 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 440000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 45: 16963 wywolan funkci haszujacej dla wstawiania, 12925 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 450000 elementow. Wspolczynnik zapelnienia: 0.429153.
+
+Pomiar 46: 17333 wywolan funkci haszujacej dla wstawiania, 13008 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 460000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 47: 17666 wywolan funkci haszujacej dla wstawiania, 13075 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 470000 elementow. Wspolczynnik zapelnienia: 0.448227.
+
+Pomiar 48: 18053 wywolan funkci haszujacej dla wstawiania, 13136 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 480000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 49: 18363 wywolan funkci haszujacej dla wstawiania, 13297 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 490000 elementow. Wspolczynnik zapelnienia: 0.4673.
+
+Pomiar 50: 18776 wywolan funkci haszujacej dla wstawiania, 13389 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 500000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Pomiar 51: 19143 wywolan funkci haszujacej dla wstawiania, 13642 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 510000 elementow. Wspolczynnik zapelnienia: 0.486374.
+
+Pomiar 52: 19380 wywolan funkci haszujacej dla wstawiania, 13688 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 520000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 53: 19726 wywolan funkci haszujacej dla wstawiania, 13862 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 530000 elementow. Wspolczynnik zapelnienia: 0.505447.
+
+Pomiar 54: 20337 wywolan funkci haszujacej dla wstawiania, 13817 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 540000 elementow. Wspolczynnik zapelnienia: 0.514984.
+
+Pomiar 55: 20335 wywolan funkci haszujacej dla wstawiania, 14039 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 550000 elementow. Wspolczynnik zapelnienia: 0.524521.
+
+Pomiar 56: 21121 wywolan funkci haszujacej dla wstawiania, 14066 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 560000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 57: 21305 wywolan funkci haszujacej dla wstawiania, 14075 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 570000 elementow. Wspolczynnik zapelnienia: 0.543594.
+
+Pomiar 58: 22044 wywolan funkci haszujacej dla wstawiania, 14429 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 580000 elementow. Wspolczynnik zapelnienia: 0.553131.
+
+Pomiar 59: 22426 wywolan funkci haszujacej dla wstawiania, 14542 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 590000 elementow. Wspolczynnik zapelnienia: 0.562668.
+
+Pomiar 60: 22731 wywolan funkci haszujacej dla wstawiania, 14504 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 600000 elementow. Wspolczynnik zapelnienia: 0.572205.
+
+Pomiar 61: 23566 wywolan funkci haszujacej dla wstawiania, 14795 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 610000 elementow. Wspolczynnik zapelnienia: 0.581741.
+
+Pomiar 62: 24817 wywolan funkci haszujacej dla wstawiania, 15052 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 620000 elementow. Wspolczynnik zapelnienia: 0.591278.
+
+Pomiar 63: 24773 wywolan funkci haszujacej dla wstawiania, 14917 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 630000 elementow. Wspolczynnik zapelnienia: 0.600815.
+
+Pomiar 64: 25551 wywolan funkci haszujacej dla wstawiania, 15035 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 640000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+Pomiar 65: 26303 wywolan funkci haszujacej dla wstawiania, 15449 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 650000 elementow. Wspolczynnik zapelnienia: 0.619888.
+
+Pomiar 66: 27016 wywolan funkci haszujacej dla wstawiania, 15529 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 660000 elementow. Wspolczynnik zapelnienia: 0.629425.
+
+Pomiar 67: 27626 wywolan funkci haszujacej dla wstawiania, 15984 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 670000 elementow. Wspolczynnik zapelnienia: 0.638962.
+
+Pomiar 68: 28551 wywolan funkci haszujacej dla wstawiania, 15867 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 680000 elementow. Wspolczynnik zapelnienia: 0.648499.
+
+Pomiar 69: 29117 wywolan funkci haszujacej dla wstawiania, 16049 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 690000 elementow. Wspolczynnik zapelnienia: 0.658035.
+
+Pomiar 70: 30483 wywolan funkci haszujacej dla wstawiania, 16458 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 700000 elementow. Wspolczynnik zapelnienia: 0.667572.
+
+Pomiar 71: 31065 wywolan funkci haszujacej dla wstawiania, 16622 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 710000 elementow. Wspolczynnik zapelnienia: 0.677109.
+
+Pomiar 72: 32195 wywolan funkci haszujacej dla wstawiania, 16665 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 720000 elementow. Wspolczynnik zapelnienia: 0.686646.
+
+Pomiar 73: 34154 wywolan funkci haszujacej dla wstawiania, 17090 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 730000 elementow. Wspolczynnik zapelnienia: 0.696182.
+
+Pomiar 74: 34615 wywolan funkci haszujacej dla wstawiania, 17222 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 740000 elementow. Wspolczynnik zapelnienia: 0.705719.
+
+Pomiar 75: 36208 wywolan funkci haszujacej dla wstawiania, 17425 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 750000 elementow. Wspolczynnik zapelnienia: 0.715256.
+
+Pomiar 76: 37233 wywolan funkci haszujacej dla wstawiania, 17620 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 760000 elementow. Wspolczynnik zapelnienia: 0.724792.
+
+Pomiar 77: 39004 wywolan funkci haszujacej dla wstawiania, 17878 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 770000 elementow. Wspolczynnik zapelnienia: 0.734329.
+
+Pomiar 78: 40512 wywolan funkci haszujacej dla wstawiania, 18530 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 780000 elementow. Wspolczynnik zapelnienia: 0.743866.
+
+Pomiar 79: 42394 wywolan funkci haszujacej dla wstawiania, 18724 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 790000 elementow. Wspolczynnik zapelnienia: 0.753403.
+
+Pomiar 80: 45056 wywolan funkci haszujacej dla wstawiania, 18900 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 800000 elementow. Wspolczynnik zapelnienia: 0.762939.
+
+Pomiar 81: 47061 wywolan funkci haszujacej dla wstawiania, 19348 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 810000 elementow. Wspolczynnik zapelnienia: 0.772476.
+
+Pomiar 82: 48859 wywolan funkci haszujacej dla wstawiania, 19719 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 820000 elementow. Wspolczynnik zapelnienia: 0.782013.
+
+Pomiar 83: 51900 wywolan funkci haszujacej dla wstawiania, 19977 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 830000 elementow. Wspolczynnik zapelnienia: 0.79155.
+
+Pomiar 84: 55546 wywolan funkci haszujacej dla wstawiania, 20278 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 840000 elementow. Wspolczynnik zapelnienia: 0.801086.
+
+                                ****Restrukturyzacja nr 6****
+Pomiar 85: 16210 wywolan funkci haszujacej dla wstawiania, 12532 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 850000 elementow. Wspolczynnik zapelnienia: 0.405312.
+
+Pomiar 86: 16048 wywolan funkci haszujacej dla wstawiania, 12589 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 860000 elementow. Wspolczynnik zapelnienia: 0.41008.
+
+Pomiar 87: 16703 wywolan funkci haszujacej dla wstawiania, 12583 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 870000 elementow. Wspolczynnik zapelnienia: 0.414848.
+
+Pomiar 88: 16740 wywolan funkci haszujacej dla wstawiania, 12665 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 880000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 89: 16691 wywolan funkci haszujacej dla wstawiania, 12661 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 890000 elementow. Wspolczynnik zapelnienia: 0.424385.
+
+Pomiar 90: 17066 wywolan funkci haszujacej dla wstawiania, 12759 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 900000 elementow. Wspolczynnik zapelnienia: 0.429153.
+
+Pomiar 91: 16963 wywolan funkci haszujacej dla wstawiania, 12770 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 910000 elementow. Wspolczynnik zapelnienia: 0.433922.
+
+Pomiar 92: 17200 wywolan funkci haszujacej dla wstawiania, 12855 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 920000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 93: 17439 wywolan funkci haszujacej dla wstawiania, 12715 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 930000 elementow. Wspolczynnik zapelnienia: 0.443459.
+
+Pomiar 94: 17265 wywolan funkci haszujacej dla wstawiania, 12995 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 940000 elementow. Wspolczynnik zapelnienia: 0.448227.
+
+Pomiar 95: 17623 wywolan funkci haszujacej dla wstawiania, 12968 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 950000 elementow. Wspolczynnik zapelnienia: 0.452995.
+
+Pomiar 96: 18027 wywolan funkci haszujacej dla wstawiania, 13068 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 960000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 97: 17784 wywolan funkci haszujacej dla wstawiania, 13128 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 970000 elementow. Wspolczynnik zapelnienia: 0.462532.
+
+Pomiar 98: 18257 wywolan funkci haszujacej dla wstawiania, 13083 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 980000 elementow. Wspolczynnik zapelnienia: 0.4673.
+
+Pomiar 99: 18161 wywolan funkci haszujacej dla wstawiania, 13179 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 990000 elementow. Wspolczynnik zapelnienia: 0.472069.
+
+Pomiar 100: 18497 wywolan funkci haszujacej dla wstawiania, 13100 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 1000000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Laczna liczba wywolan funkcji haszujacej dla wstawiania: 2693956
+Laczna liczba wywolan funkcji haszujacej dla szukania: 1554516
+Lacznie restrukturyzacji: 6
+
+=================================Adresowanie liniowe=================================
+                ###### Eksperyment 1 ######
+Wstawianie:     0% Uplynelo: 0.0708159us                10034 wywolan funkcji haszujacej.
+
+Szukanie:       10% Uplynelo: 0.072512us                10469 wywolan funkcji haszujacej.
+Wstawianie:     10% Uplynelo: 0.177856us                11073 wywolan funkcji haszujacej.
+
+Szukanie:       20% Uplynelo: 0.0802559us               11038 wywolan funkcji haszujacej.
+Wstawianie:     20% Uplynelo: 0.186208us                12606 wywolan funkcji haszujacej.
+
+Szukanie:       30% Uplynelo: 0.090976us                11799 wywolan funkcji haszujacej.
+Wstawianie:     30% Uplynelo: 0.189888us                14649 wywolan funkcji haszujacej.
+
+Szukanie:       40% Uplynelo: 0.106656us                12859 wywolan funkcji haszujacej.
+Wstawianie:     40% Uplynelo: 0.202432us                17602 wywolan funkcji haszujacej.
+
+Szukanie:       50% Uplynelo: 0.113632us                14040 wywolan funkcji haszujacej.
+Wstawianie:     50% Uplynelo: 0.172608us                22597 wywolan funkcji haszujacej.
+
+Szukanie:       60% Uplynelo: 0.129312us                16152 wywolan funkcji haszujacej.
+Wstawianie:     60% Uplynelo: 0.199552us                31708 wywolan funkcji haszujacej.
+
+Szukanie:       70% Uplynelo: 0.117024us                19693 wywolan funkcji haszujacej.
+Wstawianie:     70% Uplynelo: 0.303552us                49665 wywolan funkcji haszujacej.
+
+Szukanie:       80% Uplynelo: 0.15024us                 24928 wywolan funkcji haszujacej.
+Wstawianie:     80% Uplynelo: 0.392544us                98758 wywolan funkcji haszujacej.
+
+Szukanie:       90% Uplynelo: 0.198208us                41031 wywolan funkcji haszujacej.
+Wstawianie:     90% Uplynelo: 1.05328us                 328633 wywolan funkcji haszujacej.
+
+                ###### Eksperyment 2 ######
+Wspolczynnik zapelnienia: 0.5
+Pomiar 1: 12059 wywolan funkci haszujacej dla wstawiania, 12059 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 32768               Wstawiono: 10000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 2: 23224 wywolan funkci haszujacej dla wstawiania, 17508 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 32768               Wstawiono: 20000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+                                ****Restrukturyzacja nr 1****
+Pomiar 3: 17959 wywolan funkci haszujacej dla wstawiania, 13985 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 65536               Wstawiono: 30000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 4: 27984 wywolan funkci haszujacej dla wstawiania, 17231 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 65536               Wstawiono: 40000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+                                ****Restrukturyzacja nr 2****
+Pomiar 5: 16602 wywolan funkci haszujacej dla wstawiania, 13025 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 50000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 6: 19863 wywolan funkci haszujacej dla wstawiania, 14223 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 60000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 7: 24826 wywolan funkci haszujacej dla wstawiania, 15665 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 70000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+                                ****Restrukturyzacja nr 3****
+Pomiar 8: 14693 wywolan funkci haszujacej dla wstawiania, 12223 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 80000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 9: 15937 wywolan funkci haszujacej dla wstawiania, 12535 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 90000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 10: 17321 wywolan funkci haszujacej dla wstawiania, 13055 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 100000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 11: 18491 wywolan funkci haszujacej dla wstawiania, 13606 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 110000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 12: 20516 wywolan funkci haszujacej dla wstawiania, 13971 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 120000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 13: 23068 wywolan funkci haszujacej dla wstawiania, 14719 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 130000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 14: 25881 wywolan funkci haszujacej dla wstawiania, 15554 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 140000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+                                ****Restrukturyzacja nr 4****
+Pomiar 15: 14449 wywolan funkci haszujacej dla wstawiania, 11914 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 150000 elementow. Wspolczynnik zapelnienia: 0.286102.
+
+Pomiar 16: 14806 wywolan funkci haszujacej dla wstawiania, 12108 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 160000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 17: 15388 wywolan funkci haszujacej dla wstawiania, 12408 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 170000 elementow. Wspolczynnik zapelnienia: 0.324249.
+
+Pomiar 18: 15799 wywolan funkci haszujacej dla wstawiania, 12631 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 180000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 19: 16616 wywolan funkci haszujacej dla wstawiania, 12634 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 190000 elementow. Wspolczynnik zapelnienia: 0.362396.
+
+Pomiar 20: 17053 wywolan funkci haszujacej dla wstawiania, 12860 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 200000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 21: 18211 wywolan funkci haszujacej dla wstawiania, 13064 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 210000 elementow. Wspolczynnik zapelnienia: 0.400543.
+
+Pomiar 22: 19232 wywolan funkci haszujacej dla wstawiania, 13452 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 220000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 23: 19815 wywolan funkci haszujacej dla wstawiania, 13633 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 230000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 24: 20690 wywolan funkci haszujacej dla wstawiania, 14111 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 240000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 25: 21944 wywolan funkci haszujacej dla wstawiania, 14183 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 250000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Pomiar 26: 23344 wywolan funkci haszujacej dla wstawiania, 14731 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 260000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 27: 24252 wywolan funkci haszujacej dla wstawiania, 15086 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 270000 elementow. Wspolczynnik zapelnienia: 0.514984.
+
+                                ****Restrukturyzacja nr 5****
+Pomiar 28: 13833 wywolan funkci haszujacej dla wstawiania, 11588 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 280000 elementow. Wspolczynnik zapelnienia: 0.267029.
+
+Pomiar 29: 14176 wywolan funkci haszujacej dla wstawiania, 11741 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 290000 elementow. Wspolczynnik zapelnienia: 0.276566.
+
+Pomiar 30: 14290 wywolan funkci haszujacej dla wstawiania, 11799 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 300000 elementow. Wspolczynnik zapelnienia: 0.286102.
+
+Pomiar 31: 14649 wywolan funkci haszujacej dla wstawiania, 11821 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 310000 elementow. Wspolczynnik zapelnienia: 0.295639.
+
+Pomiar 32: 14699 wywolan funkci haszujacej dla wstawiania, 12043 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 320000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 33: 14866 wywolan funkci haszujacej dla wstawiania, 12066 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 330000 elementow. Wspolczynnik zapelnienia: 0.314713.
+
+Pomiar 34: 15416 wywolan funkci haszujacej dla wstawiania, 12128 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 340000 elementow. Wspolczynnik zapelnienia: 0.324249.
+
+Pomiar 35: 15634 wywolan funkci haszujacej dla wstawiania, 12431 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 350000 elementow. Wspolczynnik zapelnienia: 0.333786.
+
+Pomiar 36: 15879 wywolan funkci haszujacej dla wstawiania, 12345 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 360000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 37: 16186 wywolan funkci haszujacej dla wstawiania, 12546 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 370000 elementow. Wspolczynnik zapelnienia: 0.352859.
+
+Pomiar 38: 16832 wywolan funkci haszujacej dla wstawiania, 12664 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 380000 elementow. Wspolczynnik zapelnienia: 0.362396.
+
+Pomiar 39: 16978 wywolan funkci haszujacej dla wstawiania, 12627 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 390000 elementow. Wspolczynnik zapelnienia: 0.371933.
+
+Pomiar 40: 17135 wywolan funkci haszujacej dla wstawiania, 12859 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 400000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 41: 17602 wywolan funkci haszujacej dla wstawiania, 12914 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 410000 elementow. Wspolczynnik zapelnienia: 0.391006.
+
+Pomiar 42: 17994 wywolan funkci haszujacej dla wstawiania, 13124 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 420000 elementow. Wspolczynnik zapelnienia: 0.400543.
+
+Pomiar 43: 18334 wywolan funkci haszujacej dla wstawiania, 13118 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 430000 elementow. Wspolczynnik zapelnienia: 0.41008.
+
+Pomiar 44: 18555 wywolan funkci haszujacej dla wstawiania, 13438 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 440000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 45: 19274 wywolan funkci haszujacej dla wstawiania, 13537 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 450000 elementow. Wspolczynnik zapelnienia: 0.429153.
+
+Pomiar 46: 19853 wywolan funkci haszujacej dla wstawiania, 13667 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 460000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 47: 20155 wywolan funkci haszujacej dla wstawiania, 13764 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 470000 elementow. Wspolczynnik zapelnienia: 0.448227.
+
+Pomiar 48: 20823 wywolan funkci haszujacej dla wstawiania, 13813 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 480000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 49: 21397 wywolan funkci haszujacej dla wstawiania, 14001 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 490000 elementow. Wspolczynnik zapelnienia: 0.4673.
+
+Pomiar 50: 22054 wywolan funkci haszujacej dla wstawiania, 14040 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 500000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Pomiar 51: 22597 wywolan funkci haszujacej dla wstawiania, 14371 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 510000 elementow. Wspolczynnik zapelnienia: 0.486374.
+
+Pomiar 52: 23620 wywolan funkci haszujacej dla wstawiania, 14592 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 520000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 53: 23709 wywolan funkci haszujacej dla wstawiania, 14735 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 530000 elementow. Wspolczynnik zapelnienia: 0.505447.
+
+                                ****Restrukturyzacja nr 6****
+Pomiar 54: 13420 wywolan funkci haszujacej dla wstawiania, 11416 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 540000 elementow. Wspolczynnik zapelnienia: 0.257492.
+
+Pomiar 55: 13328 wywolan funkci haszujacej dla wstawiania, 11522 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 550000 elementow. Wspolczynnik zapelnienia: 0.26226.
+
+Pomiar 56: 13512 wywolan funkci haszujacej dla wstawiania, 11487 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 560000 elementow. Wspolczynnik zapelnienia: 0.267029.
+
+Pomiar 57: 13654 wywolan funkci haszujacej dla wstawiania, 11508 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 570000 elementow. Wspolczynnik zapelnienia: 0.271797.
+
+Pomiar 58: 13733 wywolan funkci haszujacej dla wstawiania, 11625 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 580000 elementow. Wspolczynnik zapelnienia: 0.276566.
+
+Pomiar 59: 13926 wywolan funkci haszujacej dla wstawiania, 11629 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 590000 elementow. Wspolczynnik zapelnienia: 0.281334.
+
+Pomiar 60: 14099 wywolan funkci haszujacej dla wstawiania, 11677 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 600000 elementow. Wspolczynnik zapelnienia: 0.286102.
+
+Pomiar 61: 14202 wywolan funkci haszujacej dla wstawiania, 11776 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 610000 elementow. Wspolczynnik zapelnienia: 0.290871.
+
+Pomiar 62: 14297 wywolan funkci haszujacej dla wstawiania, 11806 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 620000 elementow. Wspolczynnik zapelnienia: 0.295639.
+
+Pomiar 63: 14250 wywolan funkci haszujacej dla wstawiania, 11767 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 630000 elementow. Wspolczynnik zapelnienia: 0.300407.
+
+Pomiar 64: 14502 wywolan funkci haszujacej dla wstawiania, 11769 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 640000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 65: 14575 wywolan funkci haszujacej dla wstawiania, 11841 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 650000 elementow. Wspolczynnik zapelnienia: 0.309944.
+
+Pomiar 66: 14635 wywolan funkci haszujacej dla wstawiania, 11827 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 660000 elementow. Wspolczynnik zapelnienia: 0.314713.
+
+Pomiar 67: 14782 wywolan funkci haszujacej dla wstawiania, 11909 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 670000 elementow. Wspolczynnik zapelnienia: 0.319481.
+
+Pomiar 68: 14978 wywolan funkci haszujacej dla wstawiania, 11968 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 680000 elementow. Wspolczynnik zapelnienia: 0.324249.
+
+Pomiar 69: 15161 wywolan funkci haszujacej dla wstawiania, 12048 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 690000 elementow. Wspolczynnik zapelnienia: 0.329018.
+
+Pomiar 70: 15233 wywolan funkci haszujacej dla wstawiania, 12122 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 700000 elementow. Wspolczynnik zapelnienia: 0.333786.
+
+Pomiar 71: 15235 wywolan funkci haszujacej dla wstawiania, 12098 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 710000 elementow. Wspolczynnik zapelnienia: 0.338554.
+
+Pomiar 72: 15578 wywolan funkci haszujacej dla wstawiania, 12104 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 720000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 73: 15607 wywolan funkci haszujacej dla wstawiania, 12305 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 730000 elementow. Wspolczynnik zapelnienia: 0.348091.
+
+Pomiar 74: 15753 wywolan funkci haszujacej dla wstawiania, 12288 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 740000 elementow. Wspolczynnik zapelnienia: 0.352859.
+
+Pomiar 75: 16025 wywolan funkci haszujacej dla wstawiania, 12284 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 750000 elementow. Wspolczynnik zapelnienia: 0.357628.
+
+Pomiar 76: 16114 wywolan funkci haszujacej dla wstawiania, 12413 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 760000 elementow. Wspolczynnik zapelnienia: 0.362396.
+
+Pomiar 77: 16223 wywolan funkci haszujacej dla wstawiania, 12433 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 770000 elementow. Wspolczynnik zapelnienia: 0.367165.
+
+Pomiar 78: 16244 wywolan funkci haszujacej dla wstawiania, 12552 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 780000 elementow. Wspolczynnik zapelnienia: 0.371933.
+
+Pomiar 79: 16516 wywolan funkci haszujacej dla wstawiania, 12507 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 790000 elementow. Wspolczynnik zapelnienia: 0.376701.
+
+Pomiar 80: 16798 wywolan funkci haszujacej dla wstawiania, 12625 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 800000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 81: 16718 wywolan funkci haszujacej dla wstawiania, 12553 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 810000 elementow. Wspolczynnik zapelnienia: 0.386238.
+
+Pomiar 82: 17232 wywolan funkci haszujacej dla wstawiania, 12621 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 820000 elementow. Wspolczynnik zapelnienia: 0.391006.
+
+Pomiar 83: 17379 wywolan funkci haszujacej dla wstawiania, 12614 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 830000 elementow. Wspolczynnik zapelnienia: 0.395775.
+
+Pomiar 84: 17467 wywolan funkci haszujacej dla wstawiania, 12804 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 840000 elementow. Wspolczynnik zapelnienia: 0.400543.
+
+Pomiar 85: 17677 wywolan funkci haszujacej dla wstawiania, 12859 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 850000 elementow. Wspolczynnik zapelnienia: 0.405312.
+
+Pomiar 86: 17622 wywolan funkci haszujacej dla wstawiania, 12945 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 860000 elementow. Wspolczynnik zapelnienia: 0.41008.
+
+Pomiar 87: 18061 wywolan funkci haszujacej dla wstawiania, 12962 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 870000 elementow. Wspolczynnik zapelnienia: 0.414848.
+
+Pomiar 88: 18331 wywolan funkci haszujacej dla wstawiania, 13097 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 880000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 89: 18324 wywolan funkci haszujacej dla wstawiania, 13248 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 890000 elementow. Wspolczynnik zapelnienia: 0.424385.
+
+Pomiar 90: 18608 wywolan funkci haszujacej dla wstawiania, 13099 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 900000 elementow. Wspolczynnik zapelnienia: 0.429153.
+
+Pomiar 91: 19038 wywolan funkci haszujacej dla wstawiania, 13133 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 910000 elementow. Wspolczynnik zapelnienia: 0.433922.
+
+Pomiar 92: 19098 wywolan funkci haszujacej dla wstawiania, 13282 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 920000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 93: 19409 wywolan funkci haszujacej dla wstawiania, 13210 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 930000 elementow. Wspolczynnik zapelnienia: 0.443459.
+
+Pomiar 94: 19352 wywolan funkci haszujacej dla wstawiania, 13591 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 940000 elementow. Wspolczynnik zapelnienia: 0.448227.
+
+Pomiar 95: 19508 wywolan funkci haszujacej dla wstawiania, 13391 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 950000 elementow. Wspolczynnik zapelnienia: 0.452995.
+
+Pomiar 96: 20510 wywolan funkci haszujacej dla wstawiania, 13625 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 960000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 97: 20178 wywolan funkci haszujacej dla wstawiania, 13705 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 970000 elementow. Wspolczynnik zapelnienia: 0.462532.
+
+Pomiar 98: 20448 wywolan funkci haszujacej dla wstawiania, 13805 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 980000 elementow. Wspolczynnik zapelnienia: 0.4673.
+
+Pomiar 99: 20830 wywolan funkci haszujacej dla wstawiania, 13792 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 990000 elementow. Wspolczynnik zapelnienia: 0.472069.
+
+Pomiar 100: 21001 wywolan funkci haszujacej dla wstawiania, 13752 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 1000000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Laczna liczba wywolan funkcji haszujacej dla wstawiania: 1765734
+Laczna liczba wywolan funkcji haszujacej dla szukania: 1297340
+Lacznie restrukturyzacji: 6
+Wspolczynnik zapelnienia: 0.6
+Pomiar 1: 12059 wywolan funkci haszujacej dla wstawiania, 12059 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 32768               Wstawiono: 10000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 2: 23224 wywolan funkci haszujacej dla wstawiania, 17508 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 32768               Wstawiono: 20000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+                                ****Restrukturyzacja nr 1****
+Pomiar 3: 17959 wywolan funkci haszujacej dla wstawiania, 13985 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 65536               Wstawiono: 30000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 4: 27984 wywolan funkci haszujacej dla wstawiania, 17231 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 65536               Wstawiono: 40000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+                                ****Restrukturyzacja nr 2****
+Pomiar 5: 16602 wywolan funkci haszujacej dla wstawiania, 13025 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 50000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 6: 19863 wywolan funkci haszujacej dla wstawiania, 14223 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 60000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 7: 24826 wywolan funkci haszujacej dla wstawiania, 15665 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 70000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 8: 31911 wywolan funkci haszujacej dla wstawiania, 17771 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 80000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+                                ****Restrukturyzacja nr 3****
+Pomiar 9: 15937 wywolan funkci haszujacej dla wstawiania, 12535 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 90000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 10: 17321 wywolan funkci haszujacej dla wstawiania, 13055 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 100000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 11: 18491 wywolan funkci haszujacej dla wstawiania, 13606 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 110000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 12: 20516 wywolan funkci haszujacej dla wstawiania, 13971 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 120000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 13: 23068 wywolan funkci haszujacej dla wstawiania, 14719 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 130000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 14: 25881 wywolan funkci haszujacej dla wstawiania, 15554 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 140000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 15: 29374 wywolan funkci haszujacej dla wstawiania, 16485 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 150000 elementow. Wspolczynnik zapelnienia: 0.572205.
+
+Pomiar 16: 33974 wywolan funkci haszujacej dla wstawiania, 17652 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 160000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+                                ****Restrukturyzacja nr 4****
+Pomiar 17: 15388 wywolan funkci haszujacej dla wstawiania, 12408 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 170000 elementow. Wspolczynnik zapelnienia: 0.324249.
+
+Pomiar 18: 15799 wywolan funkci haszujacej dla wstawiania, 12631 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 180000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 19: 16616 wywolan funkci haszujacej dla wstawiania, 12634 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 190000 elementow. Wspolczynnik zapelnienia: 0.362396.
+
+Pomiar 20: 17053 wywolan funkci haszujacej dla wstawiania, 12860 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 200000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 21: 18211 wywolan funkci haszujacej dla wstawiania, 13064 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 210000 elementow. Wspolczynnik zapelnienia: 0.400543.
+
+Pomiar 22: 19232 wywolan funkci haszujacej dla wstawiania, 13452 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 220000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 23: 19815 wywolan funkci haszujacej dla wstawiania, 13633 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 230000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 24: 20690 wywolan funkci haszujacej dla wstawiania, 14111 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 240000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 25: 21944 wywolan funkci haszujacej dla wstawiania, 14183 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 250000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Pomiar 26: 23344 wywolan funkci haszujacej dla wstawiania, 14731 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 260000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 27: 24252 wywolan funkci haszujacej dla wstawiania, 15086 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 270000 elementow. Wspolczynnik zapelnienia: 0.514984.
+
+Pomiar 28: 26713 wywolan funkci haszujacej dla wstawiania, 15446 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 280000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 29: 28276 wywolan funkci haszujacej dla wstawiania, 15889 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 290000 elementow. Wspolczynnik zapelnienia: 0.553131.
+
+Pomiar 30: 29501 wywolan funkci haszujacej dla wstawiania, 16371 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 300000 elementow. Wspolczynnik zapelnienia: 0.572205.
+
+Pomiar 31: 31947 wywolan funkci haszujacej dla wstawiania, 16797 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 310000 elementow. Wspolczynnik zapelnienia: 0.591278.
+
+Pomiar 32: 35455 wywolan funkci haszujacej dla wstawiania, 17536 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 320000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+                                ****Restrukturyzacja nr 5****
+Pomiar 33: 14866 wywolan funkci haszujacej dla wstawiania, 12066 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 330000 elementow. Wspolczynnik zapelnienia: 0.314713.
+
+Pomiar 34: 15416 wywolan funkci haszujacej dla wstawiania, 12128 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 340000 elementow. Wspolczynnik zapelnienia: 0.324249.
+
+Pomiar 35: 15634 wywolan funkci haszujacej dla wstawiania, 12431 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 350000 elementow. Wspolczynnik zapelnienia: 0.333786.
+
+Pomiar 36: 15879 wywolan funkci haszujacej dla wstawiania, 12345 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 360000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 37: 16186 wywolan funkci haszujacej dla wstawiania, 12546 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 370000 elementow. Wspolczynnik zapelnienia: 0.352859.
+
+Pomiar 38: 16832 wywolan funkci haszujacej dla wstawiania, 12664 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 380000 elementow. Wspolczynnik zapelnienia: 0.362396.
+
+Pomiar 39: 16978 wywolan funkci haszujacej dla wstawiania, 12627 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 390000 elementow. Wspolczynnik zapelnienia: 0.371933.
+
+Pomiar 40: 17135 wywolan funkci haszujacej dla wstawiania, 12859 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 400000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 41: 17602 wywolan funkci haszujacej dla wstawiania, 12914 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 410000 elementow. Wspolczynnik zapelnienia: 0.391006.
+
+Pomiar 42: 17994 wywolan funkci haszujacej dla wstawiania, 13124 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 420000 elementow. Wspolczynnik zapelnienia: 0.400543.
+
+Pomiar 43: 18334 wywolan funkci haszujacej dla wstawiania, 13118 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 430000 elementow. Wspolczynnik zapelnienia: 0.41008.
+
+Pomiar 44: 18555 wywolan funkci haszujacej dla wstawiania, 13438 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 440000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 45: 19274 wywolan funkci haszujacej dla wstawiania, 13537 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 450000 elementow. Wspolczynnik zapelnienia: 0.429153.
+
+Pomiar 46: 19853 wywolan funkci haszujacej dla wstawiania, 13667 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 460000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 47: 20155 wywolan funkci haszujacej dla wstawiania, 13764 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 470000 elementow. Wspolczynnik zapelnienia: 0.448227.
+
+Pomiar 48: 20823 wywolan funkci haszujacej dla wstawiania, 13813 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 480000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 49: 21397 wywolan funkci haszujacej dla wstawiania, 14001 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 490000 elementow. Wspolczynnik zapelnienia: 0.4673.
+
+Pomiar 50: 22054 wywolan funkci haszujacej dla wstawiania, 14040 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 500000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Pomiar 51: 22597 wywolan funkci haszujacej dla wstawiania, 14371 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 510000 elementow. Wspolczynnik zapelnienia: 0.486374.
+
+Pomiar 52: 23620 wywolan funkci haszujacej dla wstawiania, 14592 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 520000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 53: 23709 wywolan funkci haszujacej dla wstawiania, 14735 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 530000 elementow. Wspolczynnik zapelnienia: 0.505447.
+
+Pomiar 54: 24917 wywolan funkci haszujacej dla wstawiania, 14744 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 540000 elementow. Wspolczynnik zapelnienia: 0.514984.
+
+Pomiar 55: 25315 wywolan funkci haszujacej dla wstawiania, 15189 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 550000 elementow. Wspolczynnik zapelnienia: 0.524521.
+
+Pomiar 56: 26397 wywolan funkci haszujacej dla wstawiania, 15110 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 560000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 57: 27135 wywolan funkci haszujacej dla wstawiania, 15436 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 570000 elementow. Wspolczynnik zapelnienia: 0.543594.
+
+Pomiar 58: 28248 wywolan funkci haszujacej dla wstawiania, 15846 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 580000 elementow. Wspolczynnik zapelnienia: 0.553131.
+
+Pomiar 59: 29247 wywolan funkci haszujacej dla wstawiania, 15908 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 590000 elementow. Wspolczynnik zapelnienia: 0.562668.
+
+Pomiar 60: 30306 wywolan funkci haszujacej dla wstawiania, 16152 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 600000 elementow. Wspolczynnik zapelnienia: 0.572205.
+
+Pomiar 61: 31708 wywolan funkci haszujacej dla wstawiania, 16532 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 610000 elementow. Wspolczynnik zapelnienia: 0.581741.
+
+Pomiar 62: 32706 wywolan funkci haszujacej dla wstawiania, 16656 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 620000 elementow. Wspolczynnik zapelnienia: 0.591278.
+
+Pomiar 63: 33345 wywolan funkci haszujacej dla wstawiania, 16660 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 630000 elementow. Wspolczynnik zapelnienia: 0.600815.
+
+                                ****Restrukturyzacja nr 6****
+Pomiar 64: 14502 wywolan funkci haszujacej dla wstawiania, 11769 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 640000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 65: 14575 wywolan funkci haszujacej dla wstawiania, 11841 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 650000 elementow. Wspolczynnik zapelnienia: 0.309944.
+
+Pomiar 66: 14635 wywolan funkci haszujacej dla wstawiania, 11827 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 660000 elementow. Wspolczynnik zapelnienia: 0.314713.
+
+Pomiar 67: 14782 wywolan funkci haszujacej dla wstawiania, 11909 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 670000 elementow. Wspolczynnik zapelnienia: 0.319481.
+
+Pomiar 68: 14978 wywolan funkci haszujacej dla wstawiania, 11968 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 680000 elementow. Wspolczynnik zapelnienia: 0.324249.
+
+Pomiar 69: 15161 wywolan funkci haszujacej dla wstawiania, 12048 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 690000 elementow. Wspolczynnik zapelnienia: 0.329018.
+
+Pomiar 70: 15233 wywolan funkci haszujacej dla wstawiania, 12122 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 700000 elementow. Wspolczynnik zapelnienia: 0.333786.
+
+Pomiar 71: 15235 wywolan funkci haszujacej dla wstawiania, 12098 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 710000 elementow. Wspolczynnik zapelnienia: 0.338554.
+
+Pomiar 72: 15578 wywolan funkci haszujacej dla wstawiania, 12104 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 720000 elementow. Wspolczynnik zapelnienia: 0.343323.
+
+Pomiar 73: 15607 wywolan funkci haszujacej dla wstawiania, 12305 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 730000 elementow. Wspolczynnik zapelnienia: 0.348091.
+
+Pomiar 74: 15753 wywolan funkci haszujacej dla wstawiania, 12288 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 740000 elementow. Wspolczynnik zapelnienia: 0.352859.
+
+Pomiar 75: 16025 wywolan funkci haszujacej dla wstawiania, 12284 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 750000 elementow. Wspolczynnik zapelnienia: 0.357628.
+
+Pomiar 76: 16114 wywolan funkci haszujacej dla wstawiania, 12413 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 760000 elementow. Wspolczynnik zapelnienia: 0.362396.
+
+Pomiar 77: 16223 wywolan funkci haszujacej dla wstawiania, 12433 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 770000 elementow. Wspolczynnik zapelnienia: 0.367165.
+
+Pomiar 78: 16244 wywolan funkci haszujacej dla wstawiania, 12552 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 780000 elementow. Wspolczynnik zapelnienia: 0.371933.
+
+Pomiar 79: 16516 wywolan funkci haszujacej dla wstawiania, 12507 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 790000 elementow. Wspolczynnik zapelnienia: 0.376701.
+
+Pomiar 80: 16798 wywolan funkci haszujacej dla wstawiania, 12625 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 800000 elementow. Wspolczynnik zapelnienia: 0.38147.
+
+Pomiar 81: 16718 wywolan funkci haszujacej dla wstawiania, 12553 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 810000 elementow. Wspolczynnik zapelnienia: 0.386238.
+
+Pomiar 82: 17232 wywolan funkci haszujacej dla wstawiania, 12621 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 820000 elementow. Wspolczynnik zapelnienia: 0.391006.
+
+Pomiar 83: 17379 wywolan funkci haszujacej dla wstawiania, 12614 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 830000 elementow. Wspolczynnik zapelnienia: 0.395775.
+
+Pomiar 84: 17467 wywolan funkci haszujacej dla wstawiania, 12804 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 840000 elementow. Wspolczynnik zapelnienia: 0.400543.
+
+Pomiar 85: 17677 wywolan funkci haszujacej dla wstawiania, 12859 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 850000 elementow. Wspolczynnik zapelnienia: 0.405312.
+
+Pomiar 86: 17622 wywolan funkci haszujacej dla wstawiania, 12945 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 860000 elementow. Wspolczynnik zapelnienia: 0.41008.
+
+Pomiar 87: 18061 wywolan funkci haszujacej dla wstawiania, 12962 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 870000 elementow. Wspolczynnik zapelnienia: 0.414848.
+
+Pomiar 88: 18331 wywolan funkci haszujacej dla wstawiania, 13097 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 880000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 89: 18324 wywolan funkci haszujacej dla wstawiania, 13248 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 890000 elementow. Wspolczynnik zapelnienia: 0.424385.
+
+Pomiar 90: 18608 wywolan funkci haszujacej dla wstawiania, 13099 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 900000 elementow. Wspolczynnik zapelnienia: 0.429153.
+
+Pomiar 91: 19038 wywolan funkci haszujacej dla wstawiania, 13133 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 910000 elementow. Wspolczynnik zapelnienia: 0.433922.
+
+Pomiar 92: 19098 wywolan funkci haszujacej dla wstawiania, 13282 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 920000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 93: 19409 wywolan funkci haszujacej dla wstawiania, 13210 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 930000 elementow. Wspolczynnik zapelnienia: 0.443459.
+
+Pomiar 94: 19352 wywolan funkci haszujacej dla wstawiania, 13591 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 940000 elementow. Wspolczynnik zapelnienia: 0.448227.
+
+Pomiar 95: 19508 wywolan funkci haszujacej dla wstawiania, 13391 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 950000 elementow. Wspolczynnik zapelnienia: 0.452995.
+
+Pomiar 96: 20510 wywolan funkci haszujacej dla wstawiania, 13625 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 960000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 97: 20178 wywolan funkci haszujacej dla wstawiania, 13705 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 970000 elementow. Wspolczynnik zapelnienia: 0.462532.
+
+Pomiar 98: 20448 wywolan funkci haszujacej dla wstawiania, 13805 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 980000 elementow. Wspolczynnik zapelnienia: 0.4673.
+
+Pomiar 99: 20830 wywolan funkci haszujacej dla wstawiania, 13792 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 990000 elementow. Wspolczynnik zapelnienia: 0.472069.
+
+Pomiar 100: 21001 wywolan funkci haszujacej dla wstawiania, 13752 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 1000000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Laczna liczba wywolan funkcji haszujacej dla wstawiania: 2048193
+Laczna liczba wywolan funkcji haszujacej dla szukania: 1378070
+Lacznie restrukturyzacji: 6
+Wspolczynnik zapelnienia: 0.8
+Pomiar 1: 12059 wywolan funkci haszujacej dla wstawiania, 12059 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 32768               Wstawiono: 10000 elementow. Wspolczynnik zapelnienia: 0.305176.
+
+Pomiar 2: 23224 wywolan funkci haszujacej dla wstawiania, 17508 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 32768               Wstawiono: 20000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+Pomiar 3: 162541 wywolan funkci haszujacej dla wstawiania, 67496 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 32768               Wstawiono: 30000 elementow. Wspolczynnik zapelnienia: 0.915527.
+
+                                ****Restrukturyzacja nr 1****
+Pomiar 4: 27984 wywolan funkci haszujacej dla wstawiania, 17221 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 65536               Wstawiono: 40000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+Pomiar 5: 58008 wywolan funkci haszujacej dla wstawiania, 25349 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 65536               Wstawiono: 50000 elementow. Wspolczynnik zapelnienia: 0.762939.
+
+Pomiar 6: 253029 wywolan funkci haszujacej dla wstawiania, 64300 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 65536               Wstawiono: 60000 elementow. Wspolczynnik zapelnienia: 0.915527.
+
+                                ****Restrukturyzacja nr 2****
+Pomiar 7: 24826 wywolan funkci haszujacej dla wstawiania, 15689 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 70000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 8: 31911 wywolan funkci haszujacej dla wstawiania, 17757 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 80000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+Pomiar 9: 46191 wywolan funkci haszujacej dla wstawiania, 20961 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 90000 elementow. Wspolczynnik zapelnienia: 0.686646.
+
+Pomiar 10: 73892 wywolan funkci haszujacej dla wstawiania, 26124 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 100000 elementow. Wspolczynnik zapelnienia: 0.762939.
+
+Pomiar 11: 130159 wywolan funkci haszujacej dla wstawiania, 35891 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 131072              Wstawiono: 110000 elementow. Wspolczynnik zapelnienia: 0.839233.
+
+                                ****Restrukturyzacja nr 3****
+Pomiar 12: 20516 wywolan funkci haszujacej dla wstawiania, 13973 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 120000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 13: 23068 wywolan funkci haszujacej dla wstawiania, 14720 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 130000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 14: 25881 wywolan funkci haszujacej dla wstawiania, 15553 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 140000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 15: 29374 wywolan funkci haszujacej dla wstawiania, 16485 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 150000 elementow. Wspolczynnik zapelnienia: 0.572205.
+
+Pomiar 16: 33974 wywolan funkci haszujacej dla wstawiania, 17650 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 160000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+Pomiar 17: 39895 wywolan funkci haszujacej dla wstawiania, 19040 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 170000 elementow. Wspolczynnik zapelnienia: 0.648499.
+
+Pomiar 18: 48176 wywolan funkci haszujacej dla wstawiania, 20913 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 180000 elementow. Wspolczynnik zapelnienia: 0.686646.
+
+Pomiar 19: 59926 wywolan funkci haszujacej dla wstawiania, 22448 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 190000 elementow. Wspolczynnik zapelnienia: 0.724792.
+
+Pomiar 20: 77799 wywolan funkci haszujacej dla wstawiania, 25305 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 200000 elementow. Wspolczynnik zapelnienia: 0.762939.
+
+Pomiar 21: 104270 wywolan funkci haszujacej dla wstawiania, 28757 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 262144              Wstawiono: 210000 elementow. Wspolczynnik zapelnienia: 0.801086.
+
+                                ****Restrukturyzacja nr 4****
+Pomiar 22: 19232 wywolan funkci haszujacej dla wstawiania, 13453 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 220000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 23: 19815 wywolan funkci haszujacej dla wstawiania, 13633 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 230000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 24: 20690 wywolan funkci haszujacej dla wstawiania, 14111 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 240000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 25: 21944 wywolan funkci haszujacej dla wstawiania, 14183 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 250000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Pomiar 26: 23344 wywolan funkci haszujacej dla wstawiania, 14731 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 260000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 27: 24252 wywolan funkci haszujacej dla wstawiania, 15086 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 270000 elementow. Wspolczynnik zapelnienia: 0.514984.
+
+Pomiar 28: 26713 wywolan funkci haszujacej dla wstawiania, 15446 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 280000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 29: 28276 wywolan funkci haszujacej dla wstawiania, 15889 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 290000 elementow. Wspolczynnik zapelnienia: 0.553131.
+
+Pomiar 30: 29501 wywolan funkci haszujacej dla wstawiania, 16371 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 300000 elementow. Wspolczynnik zapelnienia: 0.572205.
+
+Pomiar 31: 31947 wywolan funkci haszujacej dla wstawiania, 16797 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 310000 elementow. Wspolczynnik zapelnienia: 0.591278.
+
+Pomiar 32: 35455 wywolan funkci haszujacej dla wstawiania, 17536 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 320000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+Pomiar 33: 37727 wywolan funkci haszujacej dla wstawiania, 18004 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 330000 elementow. Wspolczynnik zapelnienia: 0.629425.
+
+Pomiar 34: 42245 wywolan funkci haszujacej dla wstawiania, 18982 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 340000 elementow. Wspolczynnik zapelnienia: 0.648499.
+
+Pomiar 35: 45395 wywolan funkci haszujacej dla wstawiania, 19774 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 350000 elementow. Wspolczynnik zapelnienia: 0.667572.
+
+Pomiar 36: 51177 wywolan funkci haszujacej dla wstawiania, 20537 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 360000 elementow. Wspolczynnik zapelnienia: 0.686646.
+
+Pomiar 37: 57191 wywolan funkci haszujacej dla wstawiania, 21411 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 370000 elementow. Wspolczynnik zapelnienia: 0.705719.
+
+Pomiar 38: 65150 wywolan funkci haszujacej dla wstawiania, 22963 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 380000 elementow. Wspolczynnik zapelnienia: 0.724792.
+
+Pomiar 39: 73530 wywolan funkci haszujacej dla wstawiania, 23593 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 390000 elementow. Wspolczynnik zapelnienia: 0.743866.
+
+Pomiar 40: 84253 wywolan funkci haszujacej dla wstawiania, 25687 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 400000 elementow. Wspolczynnik zapelnienia: 0.762939.
+
+Pomiar 41: 97934 wywolan funkci haszujacej dla wstawiania, 26840 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 410000 elementow. Wspolczynnik zapelnienia: 0.782013.
+
+Pomiar 42: 115480 wywolan funkci haszujacej dla wstawiania, 29383 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 524288              Wstawiono: 420000 elementow. Wspolczynnik zapelnienia: 0.801086.
+
+                                ****Restrukturyzacja nr 5****
+Pomiar 43: 18334 wywolan funkci haszujacej dla wstawiania, 13118 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 430000 elementow. Wspolczynnik zapelnienia: 0.41008.
+
+Pomiar 44: 18555 wywolan funkci haszujacej dla wstawiania, 13438 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 440000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 45: 19274 wywolan funkci haszujacej dla wstawiania, 13537 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 450000 elementow. Wspolczynnik zapelnienia: 0.429153.
+
+Pomiar 46: 19853 wywolan funkci haszujacej dla wstawiania, 13667 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 460000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 47: 20155 wywolan funkci haszujacej dla wstawiania, 13764 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 470000 elementow. Wspolczynnik zapelnienia: 0.448227.
+
+Pomiar 48: 20823 wywolan funkci haszujacej dla wstawiania, 13813 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 480000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 49: 21397 wywolan funkci haszujacej dla wstawiania, 14001 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 490000 elementow. Wspolczynnik zapelnienia: 0.4673.
+
+Pomiar 50: 22054 wywolan funkci haszujacej dla wstawiania, 14040 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 500000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Pomiar 51: 22597 wywolan funkci haszujacej dla wstawiania, 14371 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 510000 elementow. Wspolczynnik zapelnienia: 0.486374.
+
+Pomiar 52: 23620 wywolan funkci haszujacej dla wstawiania, 14592 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 520000 elementow. Wspolczynnik zapelnienia: 0.495911.
+
+Pomiar 53: 23709 wywolan funkci haszujacej dla wstawiania, 14735 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 530000 elementow. Wspolczynnik zapelnienia: 0.505447.
+
+Pomiar 54: 24917 wywolan funkci haszujacej dla wstawiania, 14744 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 540000 elementow. Wspolczynnik zapelnienia: 0.514984.
+
+Pomiar 55: 25315 wywolan funkci haszujacej dla wstawiania, 15189 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 550000 elementow. Wspolczynnik zapelnienia: 0.524521.
+
+Pomiar 56: 26397 wywolan funkci haszujacej dla wstawiania, 15110 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 560000 elementow. Wspolczynnik zapelnienia: 0.534058.
+
+Pomiar 57: 27135 wywolan funkci haszujacej dla wstawiania, 15436 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 570000 elementow. Wspolczynnik zapelnienia: 0.543594.
+
+Pomiar 58: 28248 wywolan funkci haszujacej dla wstawiania, 15846 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 580000 elementow. Wspolczynnik zapelnienia: 0.553131.
+
+Pomiar 59: 29247 wywolan funkci haszujacej dla wstawiania, 15908 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 590000 elementow. Wspolczynnik zapelnienia: 0.562668.
+
+Pomiar 60: 30306 wywolan funkci haszujacej dla wstawiania, 16152 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 600000 elementow. Wspolczynnik zapelnienia: 0.572205.
+
+Pomiar 61: 31708 wywolan funkci haszujacej dla wstawiania, 16532 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 610000 elementow. Wspolczynnik zapelnienia: 0.581741.
+
+Pomiar 62: 32706 wywolan funkci haszujacej dla wstawiania, 16656 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 620000 elementow. Wspolczynnik zapelnienia: 0.591278.
+
+Pomiar 63: 33345 wywolan funkci haszujacej dla wstawiania, 16660 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 630000 elementow. Wspolczynnik zapelnienia: 0.600815.
+
+Pomiar 64: 36047 wywolan funkci haszujacej dla wstawiania, 17351 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 640000 elementow. Wspolczynnik zapelnienia: 0.610352.
+
+Pomiar 65: 37251 wywolan funkci haszujacej dla wstawiania, 17481 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 650000 elementow. Wspolczynnik zapelnienia: 0.619888.
+
+Pomiar 66: 38988 wywolan funkci haszujacej dla wstawiania, 17824 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 660000 elementow. Wspolczynnik zapelnienia: 0.629425.
+
+Pomiar 67: 40433 wywolan funkci haszujacej dla wstawiania, 17865 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 670000 elementow. Wspolczynnik zapelnienia: 0.638962.
+
+Pomiar 68: 42031 wywolan funkci haszujacej dla wstawiania, 18501 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 680000 elementow. Wspolczynnik zapelnienia: 0.648499.
+
+Pomiar 69: 44103 wywolan funkci haszujacej dla wstawiania, 18917 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 690000 elementow. Wspolczynnik zapelnienia: 0.658035.
+
+Pomiar 70: 47282 wywolan funkci haszujacej dla wstawiania, 19693 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 700000 elementow. Wspolczynnik zapelnienia: 0.667572.
+
+Pomiar 71: 49665 wywolan funkci haszujacej dla wstawiania, 19379 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 710000 elementow. Wspolczynnik zapelnienia: 0.677109.
+
+Pomiar 72: 52632 wywolan funkci haszujacej dla wstawiania, 19635 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 720000 elementow. Wspolczynnik zapelnienia: 0.686646.
+
+Pomiar 73: 56560 wywolan funkci haszujacej dla wstawiania, 20782 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 730000 elementow. Wspolczynnik zapelnienia: 0.696182.
+
+Pomiar 74: 59143 wywolan funkci haszujacej dla wstawiania, 21082 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 740000 elementow. Wspolczynnik zapelnienia: 0.705719.
+
+Pomiar 75: 61648 wywolan funkci haszujacej dla wstawiania, 21358 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 750000 elementow. Wspolczynnik zapelnienia: 0.715256.
+
+Pomiar 76: 67370 wywolan funkci haszujacej dla wstawiania, 22100 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 760000 elementow. Wspolczynnik zapelnienia: 0.724792.
+
+Pomiar 77: 71180 wywolan funkci haszujacej dla wstawiania, 22597 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 770000 elementow. Wspolczynnik zapelnienia: 0.734329.
+
+Pomiar 78: 76070 wywolan funkci haszujacej dla wstawiania, 23574 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 780000 elementow. Wspolczynnik zapelnienia: 0.743866.
+
+Pomiar 79: 82270 wywolan funkci haszujacej dla wstawiania, 23916 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 790000 elementow. Wspolczynnik zapelnienia: 0.753403.
+
+Pomiar 80: 89824 wywolan funkci haszujacej dla wstawiania, 24928 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 800000 elementow. Wspolczynnik zapelnienia: 0.762939.
+
+Pomiar 81: 98758 wywolan funkci haszujacej dla wstawiania, 26289 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 810000 elementow. Wspolczynnik zapelnienia: 0.772476.
+
+Pomiar 82: 104490 wywolan funkci haszujacej dla wstawiania, 26539 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 820000 elementow. Wspolczynnik zapelnienia: 0.782013.
+
+Pomiar 83: 114889 wywolan funkci haszujacej dla wstawiania, 27148 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 830000 elementow. Wspolczynnik zapelnienia: 0.79155.
+
+Pomiar 84: 132175 wywolan funkci haszujacej dla wstawiania, 29552 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 1048576             Wstawiono: 840000 elementow. Wspolczynnik zapelnienia: 0.801086.
+
+                                ****Restrukturyzacja nr 6****
+Pomiar 85: 17677 wywolan funkci haszujacej dla wstawiania, 12859 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 850000 elementow. Wspolczynnik zapelnienia: 0.405312.
+
+Pomiar 86: 17622 wywolan funkci haszujacej dla wstawiania, 12945 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 860000 elementow. Wspolczynnik zapelnienia: 0.41008.
+
+Pomiar 87: 18061 wywolan funkci haszujacej dla wstawiania, 12962 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 870000 elementow. Wspolczynnik zapelnienia: 0.414848.
+
+Pomiar 88: 18331 wywolan funkci haszujacej dla wstawiania, 13097 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 880000 elementow. Wspolczynnik zapelnienia: 0.419617.
+
+Pomiar 89: 18324 wywolan funkci haszujacej dla wstawiania, 13248 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 890000 elementow. Wspolczynnik zapelnienia: 0.424385.
+
+Pomiar 90: 18608 wywolan funkci haszujacej dla wstawiania, 13099 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 900000 elementow. Wspolczynnik zapelnienia: 0.429153.
+
+Pomiar 91: 19038 wywolan funkci haszujacej dla wstawiania, 13133 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 910000 elementow. Wspolczynnik zapelnienia: 0.433922.
+
+Pomiar 92: 19098 wywolan funkci haszujacej dla wstawiania, 13282 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 920000 elementow. Wspolczynnik zapelnienia: 0.43869.
+
+Pomiar 93: 19409 wywolan funkci haszujacej dla wstawiania, 13210 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 930000 elementow. Wspolczynnik zapelnienia: 0.443459.
+
+Pomiar 94: 19352 wywolan funkci haszujacej dla wstawiania, 13591 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 940000 elementow. Wspolczynnik zapelnienia: 0.448227.
+
+Pomiar 95: 19508 wywolan funkci haszujacej dla wstawiania, 13391 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 950000 elementow. Wspolczynnik zapelnienia: 0.452995.
+
+Pomiar 96: 20510 wywolan funkci haszujacej dla wstawiania, 13625 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 960000 elementow. Wspolczynnik zapelnienia: 0.457764.
+
+Pomiar 97: 20178 wywolan funkci haszujacej dla wstawiania, 13705 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 970000 elementow. Wspolczynnik zapelnienia: 0.462532.
+
+Pomiar 98: 20448 wywolan funkci haszujacej dla wstawiania, 13805 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 980000 elementow. Wspolczynnik zapelnienia: 0.4673.
+
+Pomiar 99: 20830 wywolan funkci haszujacej dla wstawiania, 13792 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 990000 elementow. Wspolczynnik zapelnienia: 0.472069.
+
+Pomiar 100: 21001 wywolan funkci haszujacej dla wstawiania, 13752 wywolan funkci haszujacej dla wyszukiwania.
+Rozmiar tablicy haszujacej: 2097152             Wstawiono: 1000000 elementow. Wspolczynnik zapelnienia: 0.476837.
+
+Laczna liczba wywolan funkcji haszujacej dla wstawiania: 4488453
+Laczna liczba wywolan funkcji haszujacej dla szukania: 1890925
+Lacznie restrukturyzacji: 6
+Press any key to continue . . .
