@@ -1,1 +1,1 @@
-Tutaj umieszczać projekt 2
+Hash table
