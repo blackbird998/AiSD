@@ -35,21 +35,21 @@ int main(){
 
 	cout << "=================================Adresowanie podwojne=================================" << endl;
 	cout << "\t\t###### Eksperyment 1 ######" << endl;
-	eksperyment1(tab2, false); //adresowanie podwójne
+	//eksperyment1(tab2, false); //adresowanie podwójne
 	cout << "\t\t###### Eksperyment 2 ######" << endl;
 	cout << "Wspolczynnik zapelnienia: 0.5" << endl;
-	eksperyment2(tab2, false, 0.5);//adresowanie podwójne
+	//eksperyment2(tab2, false, 0.5);//adresowanie podwójne
 	cout << "Wspolczynnik zapelnienia: 0.6" << endl;
-	eksperyment2(tab2, false, 0.6);//adresowanie podwójne
+	//eksperyment2(tab2, false, 0.6);//adresowanie podwójne
 	cout << "Wspolczynnik zapelnienia: 0.8" << endl;
 	eksperyment2(tab2, false, 0.8);//adresowanie podwójne
 
 	cout << "\n=================================Adresowanie liniowe=================================" << endl;
 	cout << "\t\t###### Eksperyment 1 ######" << endl;
-	eksperyment1(tab2, true); //adresowanie liniowe
+	//eksperyment1(tab2, true); //adresowanie liniowe
 	cout << "\t\t###### Eksperyment 2 ######" << endl;
 	cout << "Wspolczynnik zapelnienia: 0.5" << endl;
-	eksperyment2(tab2, true, 0.5);//adresowanie liniowe
+	//eksperyment2(tab2, true, 0.5);//adresowanie liniowe
 	cout << "Wspolczynnik zapelnienia: 0.6" << endl;
 	eksperyment2(tab2, true, 0.6);//adresowanie liniowe
 	cout << "Wspolczynnik zapelnienia: 0.8" << endl;
@@ -73,7 +73,7 @@ int h_index(int x, int i, bool lin) {
 }
 int* restru(int *tab, bool lin) {
 	licznik3++;
-	cout << "\t\t\t\t****Restrukturyzacja nr " << licznik3 <<"****"<< endl;
+	//cout << "\t\t\t\t****Restrukturyzacja nr " << licznik3 <<"****"<< endl;
 	licznik_wstawionych = 0;
 	int rozmiar_stary = rozmiar;
 	rozmiar = rozmiar * 2;
@@ -222,8 +222,9 @@ void eksperyment2(int *tab2, bool lin, double wspolczynnik) {
 		}
 
 		proporcja = (double)licznik_wstawionych / (double)rozmiar;
-		cout << "Pomiar " << f + 1 << ": " << licznik << " wywolan funkci haszujacej dla wstawiania, "<< licznik2 << " wywolan funkci haszujacej dla wyszukiwania." << endl;
-		cout << "Rozmiar tablicy haszujacej: " << rozmiar << "\t\tWstawiono: " << licznik_wstawionych << " elementow. Wspolczynnik zapelnienia: " <<proporcja<<".\n"<< endl;
+		//cout << "Pomiar " << f + 1 << ": " << licznik << " wywolan funkci haszujacej dla wstawiania, "<< licznik2 << " wywolan funkci haszujacej dla wyszukiwania." << endl;
+		//cout << "Rozmiar tablicy haszujacej: " << rozmiar << "\t\tWstawiono: " << licznik_wstawionych << " elementow. Wspolczynnik zapelnienia: " <<proporcja<<".\n"<< endl;
+		cout << rozmiar << endl;
 		licznik_cal = licznik_cal + licznik;
 		licznik_cal2 = licznik_cal2 + licznik2;
 		
